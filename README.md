@@ -71,7 +71,7 @@ Running the experiments consists of two steps: First, the pipeline is run to gen
 python src/tests/test_fuzzy.py --eval
 ```
 
-This command by default places the generated queries in the `src/lemon/resources/vaguetemp/` directory named `evaluation_data_results.csv`. The most promising queries are then selected by the query selection model. This is done by running the following command:
+This command by default places the generated queries in the `src/lemon/resources/vaguetemp/` directory in a file named `evaluation_data_results.csv`. The most promising queries are then selected by the query selection model. This is done by running the following command:
 
 ```bash
 python src/tests/test_fuzzy.py --llmselect --resultspath src/lemon/resources/vaguetemp/evaluation_data_results.csv
