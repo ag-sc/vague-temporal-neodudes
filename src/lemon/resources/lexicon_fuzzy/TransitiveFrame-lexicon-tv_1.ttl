@@ -1,0 +1,67 @@
+@prefix :        <http://localhost:8000/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://localhost:8000/lemon.owl#> .
+
+@base            <http://localhost:8000#> .
+
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :to_watchtv_1 ;
+  lemon:entry    :form_watchtv_1_preposition .
+
+:to_watchtv_1 a           lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:verb ;
+  lemon:canonicalForm  :form_watchtv_1 ;
+  lemon:otherForm      :form_watchtv_1s ;
+  lemon:otherForm      :form_watchtv_1ed ;
+  lemon:otherForm      :form_watchtv_1perfect ;
+  lemon:sense          :watchtv_1_sense_1 ;
+  lemon:synBehavior    :watchtv_1_frame_transitive .
+
+:form_watchtv_1 a         lemon:Form ;
+  lemon:writtenRep     "watch TV"@en ;
+  lexinfo:verbFormMood lexinfo:infinitive .
+
+:form_watchtv_1s a    lemon:Form ;
+  lemon:writtenRep "watches TV"@en ;
+  lexinfo:person   lexinfo:secondPerson .
+
+:form_watchtv_1ed a   lemon:Form ;
+  lemon:writtenRep "watched TV"@en ;
+  lexinfo:tense    lexinfo:past .
+
+:form_watchtv_1perfect a   lemon:Form ;
+  lemon:writtenRep "watched TV"@en ;
+  lexinfo:tense    lexinfo:perfect ;
+  lexinfo:person   lexinfo:thirdPerson .
+
+:watchtv_1_frame_transitive a lexinfo:IntransitivePPFrame ;
+  lexinfo:subject          :watchtv_1_subj ;
+  lexinfo:directObject     :watchtv_1_obj .
+
+:watchtv_1_sense_1 a   lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :watchtv_1_sense_1 ;
+  lemon:reference   dul:hasAgent ;
+  lemon:subjOfProp  :watchtv_1_obj ;
+  lemon:objOfProp   :watchtv_1_subj ;
+  lemon:condition   :watchtv_1_sense_1_condition .
+
+
+:watchtv_1_sense_1_condition a    lemon:condition ;
+  lemon:propertyDomain ex:Watch_TV ;
+  lemon:propertyRange  dul:Agent .
+
+:watchtv_1_obj lemon:marker :form_watchtv_1_preposition .
+
+## Prepositions ##
+:form_watchtv_1_preposition a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "with"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+

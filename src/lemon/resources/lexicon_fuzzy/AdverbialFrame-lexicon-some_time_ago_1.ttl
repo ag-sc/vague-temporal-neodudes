@@ -1,0 +1,28 @@
+@prefix :        <http://localhost:8000/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://localhost:8000/lemon.owl#> .
+
+@base            <http://localhost:8000#> .
+
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :to_some_time_ago_1 ;
+  lemon:entry    :form_some_time_ago_1_preposition .
+
+:to_some_time_ago_1 a           lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:adverb ;
+  lemon:canonicalForm  :form_some_time_ago_1 ;
+  lemon:synBehavior    :some_time_ago_1_frame_adverbial .
+
+:form_some_time_ago_1 a         lemon:Form ;
+  lemon:writtenRep     "some time ago"@en .
+
+:some_time_ago_1_frame_adverbial a lexinfo:AdverbialComplementFrame .
+

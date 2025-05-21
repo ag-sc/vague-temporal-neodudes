@@ -1,0 +1,67 @@
+@prefix :        <http://localhost:8000/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://localhost:8000/lemon.owl#> .
+
+@base            <http://localhost:8000#> .
+
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :to_toilet_1 ;
+  lemon:entry    :form_toilet_1_preposition .
+
+:to_toilet_1 a           lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:verb ;
+  lemon:canonicalForm  :form_toilet_1 ;
+  lemon:otherForm      :form_toilet_1s ;
+  lemon:otherForm      :form_toilet_1ed ;
+  lemon:otherForm      :form_toilet_1perfect ;
+  lemon:sense          :toilet_1_sense_1 ;
+  lemon:synBehavior    :toilet_1_frame_transitive .
+
+:form_toilet_1 a         lemon:Form ;
+  lemon:writtenRep     "go to the toilet"@en ;
+  lexinfo:verbFormMood lexinfo:infinitive .
+
+:form_toilet_1s a    lemon:Form ;
+  lemon:writtenRep "goes to the toilet"@en ;
+  lexinfo:person   lexinfo:secondPerson .
+
+:form_toilet_1ed a   lemon:Form ;
+  lemon:writtenRep "went to the toilet"@en ;
+  lexinfo:tense    lexinfo:past .
+
+:form_toilet_1perfect a   lemon:Form ;
+  lemon:writtenRep "gone to the toilet"@en ;
+  lexinfo:tense    lexinfo:perfect ;
+  lexinfo:person   lexinfo:thirdPerson .
+
+:toilet_1_frame_transitive a lexinfo:IntransitivePPFrame ;
+  lexinfo:subject          :toilet_1_subj ;
+  lexinfo:directObject     :toilet_1_obj .
+
+:toilet_1_sense_1 a   lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :toilet_1_sense_1 ;
+  lemon:reference   dul:hasAgent ;
+  lemon:subjOfProp  :toilet_1_obj ;
+  lemon:objOfProp   :toilet_1_subj ;
+  lemon:condition   :toilet_1_sense_1_condition .
+
+
+:toilet_1_sense_1_condition a    lemon:condition ;
+  lemon:propertyDomain ex:Bed_Toilet_Transition ;
+  lemon:propertyRange  dul:Agent .
+
+:toilet_1_obj lemon:marker :form_toilet_1_preposition .
+
+## Prepositions ##
+:form_toilet_1_preposition a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "with"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+

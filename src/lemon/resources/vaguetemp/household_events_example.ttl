@@ -1,0 +1,60 @@
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Eating_1 a ex:Eating ;
+    ex:happensAt ex:Interval_Eating_1 ;
+    dul:hasAgent ex:Tom .
+
+ex:Eating_2 a ex:Eating ;
+    ex:happensAt ex:Interval_Eating_2 ;
+    dul:hasAgent ex:Tom .
+
+ex:Showering_4 a ex:Showering ;
+    ex:happensAt ex:Interval_Showering_4 ;
+    dul:hasAgent ex:Mary .
+
+ex:Sleeping_3 a ex:Sleeping ;
+    ex:happensAt ex:Interval_Sleeping_3 ;
+    dul:hasAgent ex:Mary .
+
+ex:Interval_Eating_1 a time:ProperInterval ;
+    time:hasBeginning "2009-11-14T07:00:00"^^xsd:dateTime ;
+    time:hasEnd "2009-11-14T07:30:00"^^xsd:dateTime .
+
+ex:Interval_Eating_2 a time:ProperInterval ;
+    time:hasBeginning "2009-11-14T12:00:00"^^xsd:dateTime ;
+    time:hasEnd "2009-11-14T12:45:00"^^xsd:dateTime .
+
+ex:Interval_Showering_4 a time:ProperInterval ;
+    time:hasBeginning "2009-11-15T08:00:00"^^xsd:dateTime ;
+    time:hasEnd "2009-11-15T08:15:00"^^xsd:dateTime .
+
+ex:Interval_Sleeping_3 a time:ProperInterval ;
+    time:hasBeginning "2009-11-14T23:00:00"^^xsd:dateTime ;
+    time:hasEnd "2009-11-15T07:00:00"^^xsd:dateTime .
+
+ex:Showering a owl:Class ;
+    rdfs:subClassOf ex:Event .
+
+ex:Sleeping a owl:Class ;
+    rdfs:subClassOf ex:Event .
+
+ex:Eating a owl:Class ;
+    rdfs:subClassOf ex:Event .
+
+ex:Mary a dul:Agent ;
+    rdfs:label "Mary"^^xsd:string .
+
+ex:Tom a dul:Agent ;
+    rdfs:label "Tom"^^xsd:string .
+
+dul:Agent a owl:Class .
+
+ex:Event a owl:Class .
+
+time:ProperInterval a owl:Class .
+

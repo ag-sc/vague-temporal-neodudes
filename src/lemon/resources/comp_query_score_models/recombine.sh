@@ -1,0 +1,2 @@
+#!/bin/bash
+cat query_score_llm_fuzzy_5.036884093698326e-05_0.9361310528459784_64_2_2025-05-08_22-45-56-155376_best_val_loss.ckpt.zsta* | zstd -d -o query_score_llm_fuzzy_5.036884093698326e-05_0.9361310528459784_64_2_2025-05-08_22-45-56-155376_best_val_loss.ckpt

@@ -1,0 +1,67 @@
+@prefix :        <http://localhost:8000/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://localhost:8000/lemon.owl#> .
+
+@base            <http://localhost:8000#> .
+
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ex: <http://example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :to_meal_2 ;
+  lemon:entry    :form_meal_2_preposition .
+
+:to_meal_2 a           lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:verb ;
+  lemon:canonicalForm  :form_meal_2 ;
+  lemon:otherForm      :form_meal_2s ;
+  lemon:otherForm      :form_meal_2ed ;
+  lemon:otherForm      :form_meal_2perfect ;
+  lemon:sense          :meal_2_sense_1 ;
+  lemon:synBehavior    :meal_2_frame_transitive .
+
+:form_meal_2 a         lemon:Form ;
+  lemon:writtenRep     "prepare a meal"@en ;
+  lexinfo:verbFormMood lexinfo:infinitive .
+
+:form_meal_2s a    lemon:Form ;
+  lemon:writtenRep "prepares a meal"@en ;
+  lexinfo:person   lexinfo:secondPerson .
+
+:form_meal_2ed a   lemon:Form ;
+  lemon:writtenRep "prepared a meal"@en ;
+  lexinfo:tense    lexinfo:past .
+
+:form_meal_2perfect a   lemon:Form ;
+  lemon:writtenRep "prepared a meal"@en ;
+  lexinfo:tense    lexinfo:perfect ;
+  lexinfo:person   lexinfo:thirdPerson .
+
+:meal_2_frame_transitive a lexinfo:IntransitivePPFrame ;
+  lexinfo:subject          :meal_2_subj ;
+  lexinfo:directObject     :meal_2_obj .
+
+:meal_2_sense_1 a   lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :meal_2_sense_1 ;
+  lemon:reference   dul:hasAgent ;
+  lemon:subjOfProp  :meal_2_obj ;
+  lemon:objOfProp   :meal_2_subj ;
+  lemon:condition   :meal_2_sense_1_condition .
+
+
+:meal_2_sense_1_condition a    lemon:condition ;
+  lemon:propertyDomain ex:Meal_Preparation ;
+  lemon:propertyRange  dul:Agent .
+
+:meal_2_obj lemon:marker :form_meal_2_preposition .
+
+## Prepositions ##
+:form_meal_2_preposition a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "with"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+
