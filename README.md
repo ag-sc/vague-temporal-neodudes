@@ -82,7 +82,7 @@ Output: R1_activities.json, R2_activities.json
 Both files contain the cleaned activities split by resident. Based on these files, we can then generate the evaluation dataset:
 
 ```bash
-./create_evaluation_dataset.py
+python ./create_evaluation_dataset.py
 ```
 
 Additionally, you can change the parameters of the dataset creation:
@@ -100,7 +100,7 @@ Arguments:
 For example:
 
 ```bash
-./create_evaluation_dataset.py --num_what 10 --num_did 5 --num_who 1 --num_what_happened 5
+python ./create_evaluation_dataset.py --num_what 10 --num_did 5 --num_who 1 --num_what_happened 5
 ```
 
 The evaluation data for the four question categories is placed in evaluation_data/...
