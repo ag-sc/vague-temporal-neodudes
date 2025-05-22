@@ -11,7 +11,7 @@ from collections import defaultdict
 import rdflib
 import argparse
 
-from VagueTempModell import vague_temp
+from fuzzylli import vague_temp
 
 
 dateformat = '%Y-%m-%dT%H:%M:%S.%f'

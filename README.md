@@ -17,7 +17,7 @@ If you want to execute a single Python file manually, you have to activate the v
 
 ```bash
 source venv/bin/activate
-export PYTHONPATH=./src/
+export PYTHONPATH=/path/to/src/
 python some/python/file.py
 ```
 
@@ -70,7 +70,7 @@ zstd -d ./twor.2010/data.zst
 
 Afterwards, the original household dataset needs to be cleaned and preprocessed first:
 ```bash
-python ./preprocess_data.py --filepath
+python ./preprocess_data.py
 ```
 
 Argument:
