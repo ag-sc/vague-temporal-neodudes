@@ -43,6 +43,12 @@ This artifact is an extension of [https://github.com/ag-sc/neodudes](https://git
   * sparql_generator.py - Refactored SPARQL generator to be modular and extensible
   * sparql_modules.py - Modules implementing parts of the SPARQL query generation, added module evaluating special property `vaguetemp` that triggers a call to the FuzzyLLI model and generates FILTER statements for the results
 * src/llm/query_scoring/dataset.py - Added specialized dataset for further fine-tuning the query selection model with SPARQL queries representing interpretations of vague temporal adverbials
+* src/fuzzylli/ - Scripts and data for the FuzzyLLI model
+* src/fuzzy_dataset/ - Scripts and data for knowledge graph and evaluation dataset generation
+  * twor.2010/ - Dataset from [https://casas.wsu.edu/datasets/](https://casas.wsu.edu/datasets/)
+  * preprocess_data.py - Script to preprocess and clean the household dataset
+  * create_kg.py - Script to create the knowledge graph from the household dataset
+  * create_evaluation_dataset.py - Script to create the evaluation dataset based on the household dataset, i.e., the corresponding knowledge graph
 * src/llm/query_scoring/training_fuzzy.py - Adapted training script for the fuzzy query selection model
 * src/tests/test_fuzzy.py - Benchmark script running the pipeline as well as the query selection, also includes other tests and examples that might be interesting
 * requirements.txt - Python requirements of this project
@@ -50,6 +56,54 @@ This artifact is an extension of [https://github.com/ag-sc/neodudes](https://git
 ## Replication Steps
 
 ### Dataset Generation
+
+First, go to the `src/fuzzy_dataset/` directory 
+```bash
+cd src/fuzzy_dataset/
+```
+
+Then, ensure to decompress the original household dataset file:
+
+```bash
+zstd -d ./twor.2010/data.zst
+```
+
+Afterwards, the original household dataset needs to be cleaned and preprocessed first:
+```bash
+python ./preprocess_data.py --filepath
+```
+
+Argument:
+
+--filepath - the path to the household dataset Default: twor.2010/data
+
+Output: R1_activities.json, R2_activities.json
+
+Both files contain the cleaned activities split by resident. Based on these files, we can then generate the evaluation dataset:
+
+```bash
+./create_evaluation_dataset.py
+```
+
+Additionally, you can change the parameters of the dataset creation:
+
+Arguments: 
+
+--num_what Number of WHAT Questions per adverbial, Default: 100
+
+--num_did Number of DID questions per event, Default: 5
+
+--num_who Number of WHO questions per adverbial, Default: 200 
+
+--num_what_happened Number of WHAT HAPPENED questions per adverbial, Default: 100
+
+For example:
+
+```bash
+./create_evaluation_dataset.py --num_what 10 --num_did 5 --num_who 1 --num_what_happened 5
+```
+
+The evaluation data for the four question categories is placed in evaluation_data/...
 
 ### Query Selection Model Training
 
