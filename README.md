@@ -43,7 +43,7 @@ This artifact is an extension of [https://github.com/ag-sc/neodudes](https://git
   * sparql_generator.py - Refactored SPARQL generator to be modular and extensible
   * sparql_modules.py - Modules implementing parts of the SPARQL query generation, added module evaluating special property `vaguetemp` that triggers a call to the FuzzyLLI model and generates FILTER statements for the results
 * src/llm/query_scoring/dataset.py - Added specialized dataset for further fine-tuning the query selection model with SPARQL queries representing interpretations of vague temporal adverbials
-* src/fuzzylli/ - Scripts and data for the FuzzyLLI model
+* src/fuzzylli/ - Standalone scripts and data for the (extended) FuzzyLLI model
 * src/fuzzy_dataset/ - Scripts and data for knowledge graph and evaluation dataset generation
   * twor.2010/ - Dataset from [https://casas.wsu.edu/datasets/](https://casas.wsu.edu/datasets/)
   * preprocess_data.py - Script to preprocess and clean the household dataset
