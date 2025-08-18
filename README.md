@@ -1,4 +1,4 @@
-# Artifact "Fuzzy Temporal Question Answering over RDF Data"
+# Artifact "Question Answering over Linked Data with Vague Temporal Adverbials"
 
 ## Setup
 
