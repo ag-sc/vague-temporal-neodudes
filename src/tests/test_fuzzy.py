@@ -40,7 +40,7 @@ import compress_pickle as cpl  # type: ignore
 
 def _llm_fuzzy_eval_init():
     global query_scorer
-    query_scorer = MultiLLMQuerySelector.from_paths([os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "comp_query_score_models", "query_score_llm_fuzzy_2.2592503361963202e-05_0.9451347279061211_64_5_2025-05-13_08-54-39-698556_best_val_loss.ckpt")])
+    query_scorer = MultiLLMQuerySelector.from_paths([os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "comp_query_score_models", "query_score_llm_fuzzy_5.036884093698326e-05_0.9361310528459784_64_2_2025-05-08_22-45-56-155376_best_val_loss.ckpt")])
     global se
     path = os.path.join(
         os.path.dirname(sys.modules["lemon"].__file__),
@@ -116,7 +116,10 @@ def test_query_eval(results_path, out_path, threads):
     #thr = dudes_rpc_service.start_rpc_service(preset="fuzzy")
     print("Query eval started.")
     df = pd.read_csv(results_path)
-    torch.multiprocessing.set_start_method('spawn')
+    try:
+        torch.multiprocessing.set_start_method('spawn')
+    except RuntimeError:
+        pass
     # max_first_correct_result = None
 
     # rpc_conn = rpyc.connect(consts.rpc_host,
