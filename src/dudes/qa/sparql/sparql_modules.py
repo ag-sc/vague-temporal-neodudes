@@ -176,8 +176,7 @@ class TripleGenerator(SPARQLModule):
                 CompPreparerModule(),
                 WithTripleGeneratorModule(),
                 VagueTemporalPreparerModule(
-                    vague_temp_upper_percentage=vague_temp_upper_percentage,
-                    vague_temp_lower_percentage=vague_temp_lower_percentage,
+                    vague_temp_percentage=vague_temp_lower_percentage,
                     vague_temp_ref_date=vague_temp_ref_date
                 ),
                 PropertyDomainRangeTripleGeneratorModule(generaltype=generaltype, domaintype=domaintype, rangetype=rangetype),

@@ -21,6 +21,10 @@ from dudes.qa.sparql.sparqlburger.SPARQLQueryBuilder import SPARQLGraphPattern
 from dudes.qa.sparql.sparqlburger.SPARQLSyntaxTerms import Triple, OrderByData, FilterData, FilterCombinator, UnionData, \
     Filter
 
+import json
+import joblib
+from scipy.special import erfinv
+from sentence_transformers import SentenceTransformer
 
 class TripleGeneratorModule(ABC):
     def __init__(
@@ -199,10 +203,6 @@ class RefDateWrapper:
 
 class VagueTemporalPreparerModule(TripleGeneratorModule):
 
-    events_durations = [
-        "minutes",
-        "hours"
-    ]
     all_adverbials = [
         "recently",
         "just",
@@ -210,68 +210,14 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
         "long time ago"
     ]
 
-    all_events = [
-        "bath",
-        "clean house",
-        "care hygiene",
-        "out home",
-        "leave home",
-        # "return home",
-        "meal prepar",
-        "sleep",
-        "toilet",
-        "watch tv",
-        "work",
-        "eat",
-    ]
-
-
-     # a ex:Bathing ;
-     # a ex:Bed_Toilet_Transition ;
-     # a ex:Eating ;
-     # a ex:Housekeeping ;
-     # a ex:Leave_Home ;
-     # a ex:Meal_Preparation ;
-     # a ex:Out_of_Home ;
-     # a ex:Personal_Hygiene ;
-     # a ex:Sleep ;
-     # a ex:Watch_TV ;
-     # a ex:Work ;
-
-    # event_types = {
-    #     "brushing_teeth": "?undef",
-    #     "brushing teeth": "?undef",
-    #     "birthday": "?undef",
-    #     "vacation": "?undef",
-    #     "sabbatical": "?undef",
-    #     "year_abroad": "?undef",
-    #     "year abroad": "?undef",
-    #     "marriage": "?undef",
-    #     "brush teeth": "?undef",
-    #     "bath": "ex:Bathing",
-    #     "clean house": "ex:Housekeeping",
-    #     "care hygiene": "ex:Personal_Hygiene",
-    #     "leave home": "ex:Leave_Home",
-    #     "return home": "ex:Out_of_Home",
-    #     "meal prepar": "ex:Meal_Preparation",
-    #     "sleep": "ex:Sleep",
-    #     "toilet": "ex:Bed_Toilet_Transition",
-    #     "watch tv": "ex:Watch_TV",
-    #     "work": "ex:Work",
-    #     "eat": "ex:Eating",
-    # }
-
     def __init__(self,
                  namespaces: Optional[Iterable[Tuple[str, Namespace]]] = None,
                  nsmanager: Optional[NamespaceManager] = None,
-                 vague_temp_upper_percentage=1.0,
-                 vague_temp_lower_percentage=0.6,
-                 vague_temp_ref_date=None,
-                 param_path_dur = os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "vaguetemp", "optimized_parameters_overAllVotes_event_duration"),
-                 param_path_adv = os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "vaguetemp", "optimized_parameters_overAllVotes_adverbials")):
+                 entity_prefix: Optional[str] = None,
+                 vague_temp_percentage=0.6,
+                 vague_temp_ref_date=None):
         super().__init__(namespaces=namespaces, nsmanager=nsmanager)
-        self.vague_temp_upper_percentage = vague_temp_upper_percentage
-        self.vague_temp_lower_percentage = vague_temp_lower_percentage
+        self.vague_temp_percentage = vague_temp_percentage
         if vague_temp_ref_date is None:
             vague_temp_ref_date = RefDateWrapper(datetime.now())
         elif isinstance(vague_temp_ref_date, datetime):
@@ -279,226 +225,170 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
         elif not isinstance(vague_temp_ref_date, RefDateWrapper):
             raise ValueError("Invalid ref_date type")
         self.vague_temp_ref_date = vague_temp_ref_date
-        self.param_path_dur = param_path_dur
-        self.param_path_adv = param_path_adv
+
+        self._embedding_model = SentenceTransformer("paraphrase-MiniLM-L6-v2", device='cpu')
+        with open(os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "fuzzylli_new", "adverbial_params.json"), "r", encoding="utf-8") as fh:
+            self._adverbial_params = json.load(fh)
+        with open(os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "fuzzylli_new", "kgqa_event_types.json"), "r", encoding="utf-8") as fh:
+            self._kgqa_event_types = tuple(json.load(fh))
+        self._embedding_regressor = joblib.load(os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "fuzzylli_new", "configuration_word_embeddings.pkl"))
+        encoder = self._embedding_model
+        records = self._kgqa_event_types
+        vectors = []
+
+        for record in records:
+            embeddings = encoder.encode(self._candidate_texts(record), normalize_embeddings=True)
+            vector = np.mean(np.asarray(embeddings), axis=0)
+            norm = np.linalg.norm(vector)
+            if norm:
+                vector = vector / norm
+            vectors.append(vector)
+
+        self._kgqa_event_type_index = (records, np.vstack(vectors))
 
     @staticmethod
-    def gauss_inverse(y, mean, std):
-        return mean + std * np.sqrt(-2 * np.log(y))
+    def _safe_round(value):
+        value = float(value)
+        return int(round(value)) if math.isfinite(value) else value
 
     @staticmethod
-    def inverse_event_specific_function(y, std):
+    def _gauss_inverse(y, mean, std):
+        val = std * np.sqrt(-2 * np.log(y))
+        return mean - val, mean + val
+
+    @staticmethod
+    def _inverse_event_specific_function(y, std):
         clipped_y = max(-1, min(1, 2 * y - 1))
         return math.sqrt(2) * std * erfinv(clipped_y)
 
     @staticmethod
-    def safe_round(value):
-        return round(value) if math.isfinite(value) else value
+    def _readable_event_type(event_type):
+        name = event_type.split(":", 1)[-1]
+        return name.replace("_", " ").strip()
 
-    def event_idx_det(self, event):
-        event = event.lower()
-        event_duration_idx = None
-        if "brush" in event and "teeth" in event:
-            event_duration_idx = self.events_durations.index("minutes")
-        elif "bath" in event:
-            event_duration_idx = self.events_durations.index("minutes")
-        elif "clean" in event and "house" in event:
-            event_duration_idx = self.events_durations.index("hours")
-        elif "care" in event and "hygiene" in event:
-            event_duration_idx = self.events_durations.index("minutes")
-        elif "out" in event and "home" in event:
-            event_duration_idx = self.events_durations.index("hours")
-        elif ("leave" in event or "left" in event) and "home" in event:
-            event_duration_idx = self.events_durations.index("minutes")
-        elif "return" in event and "home" in event:
-            event_duration_idx = self.events_durations.index("hours")
-        elif "meal" in event and "prepar" in event:  # covering prepare and preparing
-            event_duration_idx = self.events_durations.index("minutes")
-        elif "sleep" in event or "slept" in event:
-            event_duration_idx = self.events_durations.index("hours")
-        elif "toilet" in event:
-            event_duration_idx = self.events_durations.index("minutes")
-        elif "watch" in event and "tv" in event:
-            event_duration_idx = self.events_durations.index("hours")
-        elif "work" in event:
-            event_duration_idx = self.events_durations.index("hours")
-        elif "eat" in event or "ate" in event:
-            event_duration_idx = self.events_durations.index("minutes")
-        else:
-            event_duration_idx = None
-            # raise ValueError(f"Invalid Event: {event}")
-        return event_duration_idx
+    def _candidate_texts(self, record):
+        texts = [record.get("label") or self._readable_event_type(record["event_type"])]
+        texts.extend(record.get("examples", []))
+        texts.append(self._readable_event_type(record["event_type"]))
+        return [text for text in texts if text]
 
-    @staticmethod
-    def event_type(event):
-        # event_types = {
-        #     "brushing_teeth": "?undef",
-        #     "brushing teeth": "?undef",
-        #     "birthday": "?undef",
-        #     "vacation": "?undef",
-        #     "sabbatical": "?undef",
-        #     "year_abroad": "?undef",
-        #     "year abroad": "?undef",
-        #     "marriage": "?undef",
-        #     "brush teeth": "?undef",
-        #     "bath": "ex:Bathing",
-        #     "clean house": "ex:Housekeeping",
-        #     "care hygiene": "ex:Personal_Hygiene",
-        #     "leave home": "ex:Leave_Home",
-        #     "return home": "ex:Out_of_Home",
-        #     "meal prepar": "ex:Meal_Preparation",
-        #     "sleep": "ex:Sleep",
-        #     "toilet": "ex:Bed_Toilet_Transition",
-        #     "watch tv": "ex:Watch_TV",
-        #     "work": "ex:Work",
-        #     "eat": "ex:Eating",
-        # }
-        event = event.lower()
-        event_duration_idx = None
-        if "brush" in event and "teeth" in event:
-            return None#"?undef"
-        elif "bath" in event:
-            return "ex:Bathing"
-        elif "clean" in event and "house" in event:
-            return "ex:Housekeeping"
-        elif "care" in event and "hygiene" in event:
-            return "ex:Personal_Hygiene"
-        elif ("leave" in event or "left" in event) and "home" in event:
-            return "ex:Leave_Home"
-        elif ("out" in event or "return" in event) and "home" in event:
-            return "ex:Out_of_Home"
-        elif "meal" in event and "prepar" in event:  # covering prepare and preparing
-            return "ex:Meal_Preparation"
-        elif "sleep" in event or "slept" in event:
-            return "ex:Sleep"
-        elif "toilet" in event:
-            return "ex:Bed_Toilet_Transition"
-        elif "watch" in event and "tv" in event:
-            return "ex:Watch_TV"
-        elif "work" in event:
-            return "ex:Work"
-        elif "eat" in event or "ate" in event:
-            return "ex:Eating"
-        else:
-            return None#"?undef"
+    def _query_text(self, event):
+        return self._readable_event_type(event) if ":" in event else event.replace("_", " ")
+
+    def resolve_event_type_embedding(self, event):
+        records, matrix = self._kgqa_event_type_index
+        encoder = self._embedding_model
+        query = encoder.encode([self._query_text(event)], normalize_embeddings=True)[0]
+        scores = matrix @ np.asarray(query)
+
+        best = int(np.argmax(scores))
+        best_record = records[best]
+
+        return {
+            "clean_event_type": best_record["event_type"],
+            "label": best_record.get("label") or self._readable_event_type(best_record["event_type"]),
+            "score": float(scores[best]),
+        }
+
+    def _predict_event_std_embedding(self, event, use_clean_event_type=True):
+        resolved = self.resolve_event_type_embedding(event) if use_clean_event_type else None
+        embedding_text = resolved["label"] if resolved else event
+
+        encoder = self._embedding_model
+        ridge = self._embedding_regressor
+        vector = encoder.encode(embedding_text)
+        log_pred = ridge.predict(np.asarray(vector).reshape(1, -1))[0]
+        event_std = float(max(0.0, np.expm1(log_pred)))
+
+        return event_std
+
+    def predict_time_frame_embedding(self,
+                                     event,
+                                     adverbial,
+                                     min_prob=0.6,
+                                     use_clean_event_type=True):
+        params = self._adverbial_params
+        adverbial_mean = params["adverbial_means"][adverbial]
+        adverbial_std = params["adverbial_stds"][adverbial]
+        event_std = self._predict_event_std_embedding(
+            event,
+            use_clean_event_type=use_clean_event_type,
+        )
+
+        lower_adv, higher_adv = self._gauss_inverse(min_prob, adverbial_mean, adverbial_std)
+        upper_raw = self._inverse_event_specific_function(higher_adv, event_std)
+        lower_raw = self._inverse_event_specific_function(lower_adv, event_std)
+
+        upper = max(0, self._safe_round(upper_raw))
+        lower = max(0, self._safe_round(lower_raw))
+        return upper, lower
+
+    def predict_kgqa_interval_embedding(self,
+                                        event,
+                                        adverbial,
+                                        min_prob=0.6):
+        resolved = self.resolve_event_type_embedding(event)
+        event_std = self._predict_event_std_embedding(
+            resolved["label"],
+            use_clean_event_type=False,
+        )
+        upper, lower = self.predict_time_frame_embedding(
+            resolved["label"],
+            adverbial,
+            min_prob=min_prob,
+            use_clean_event_type=False,
+        )
+
+        return {
+            "input_event": event,
+            "clean_event_type": resolved["clean_event_type"],
+            "event_type_label": resolved["label"],
+            "event_type_score": resolved["score"],
+            "adverbial": adverbial,
+            "min_prob": min_prob,
+            "event_std": event_std,
+            "interval": {
+                "upper_minutes_ago": upper,
+                "lower_minutes_ago": lower,
+            },
+        }
+
+    def event_type(self, event):
+        event = event.lower().strip().replace("_", " ")
+        return self.resolve_event_type_embedding(
+            event,
+        )["clean_event_type"]
 
     def get_minutes_ago(self, adverbial, event):
         adverbial = adverbial.lower().strip().replace("_", " ")
-        event = event.lower().strip().replace(" ", "_")
+        event = event.lower().strip().replace("_", " ")
 
-        chosen_events = []
-        if self.event_idx_det(event) is None:
-            chosen_events = self.all_events
-        else:
-            chosen_events = [event]
+        if adverbial not in self.all_adverbials:
+            raise ValueError(f"Invalid adverbial: {adverbial}")
 
-        res = []
-        for curr_event in chosen_events:
-            event_duration_idx = self.event_idx_det(curr_event)
+        prediction = self.predict_kgqa_interval_embedding(
+            event,
+            adverbial,
+            min_prob=self.vague_temp_percentage,
+        )
+        interval = prediction["interval"]
 
-            if adverbial not in self.all_adverbials:
-                raise ValueError(f"Invalid adverbial: {adverbial}")
-
-            with open(self.param_path_dur + '.pkl', 'rb') as f:
-                optimized_event_duration_params = pickle.load(f)
-                num_params = len(inspect.signature(self.inverse_event_specific_function).parameters) - 1
-                event_params = optimized_event_duration_params[event_duration_idx:event_duration_idx + num_params]
-                print(event_params)
-            with open(self.param_path_adv + '.pkl', 'rb') as f:
-                optimized_adverbial_params = pickle.load(f)
-                idx = self.all_adverbials.index(adverbial)
-                adverbial_params = [
-                    optimized_adverbial_params[idx],
-                    optimized_adverbial_params[idx + len(self.all_adverbials)]
-                ]
-                print(adverbial_params)
-
-            upper_raw = self.inverse_event_specific_function(self.gauss_inverse(self.vague_temp_upper_percentage, *adverbial_params), *event_params)
-            lower_raw = self.inverse_event_specific_function(self.gauss_inverse(self.vague_temp_lower_percentage, *adverbial_params), *event_params)
-
-            upper = max(0, self.safe_round(upper_raw))
-            lower = self.safe_round(lower_raw)
-
-            res.append((upper, lower, self.event_type(curr_event)))# if len(chosen_events) > 1 else None
-        print("Interval results: ", res, flush=True)
+        res = [
+            (
+                interval["upper_minutes_ago"],
+                interval["lower_minutes_ago"],
+                prediction["clean_event_type"],
+            )
+        ]
+        # print("Interval results: ", res, flush=True)
         return res
-
-    # def get_minutes_ago(self, adverbial, event):
-    #     adverbial = adverbial.lower().strip().replace("_", " ")
-    #     event = event.lower().strip().replace(" ", "_")
-    #     logging.debug(f"adverbial: {adverbial}, event: {event}")
-    #     if "brush" in event and "teeth" in event:
-    #         event = "brushing_teeth"
-    #     elif "bath" in event:
-    #         event = "brushing_teeth"
-    #     elif "clean" in event and "house" in event:
-    #         event = "brushing_teeth"
-    #     elif "care" in event and "hygiene" in event:
-    #         event = "brushing_teeth"
-    #     elif "leave" in event and "home" in event:
-    #         event = "brushing_teeth"
-    #     elif "return" in event and "home" in event:
-    #         event = "brushing_teeth"
-    #     elif "meal" in event and "prepar" in event:#covering prepare and preparing
-    #         event = "brushing_teeth"
-    #     elif "sleep" in event:
-    #         event = "brushing_teeth"
-    #     elif "toilet" in event:
-    #         event = "brushing_teeth"
-    #     elif "watch" in event and "tv" in event:
-    #         event = "brushing_teeth"
-    #     elif "work" in event:
-    #         event = "brushing_teeth"
-    #     elif "eat" in event:
-    #         event = "brushing_teeth"
-    #     else:
-    #         event = None
-    #
-    #     #event = "brushing_teeth"  # temporary fix until we have more data
-    #     if adverbial not in self.all_adverbials:
-    #         raise ValueError(f"Invalid adverbial: {adverbial}")
-    #
-    #     chosen_events = [event]
-    #
-    #     if event not in self.all_events:
-    #         chosen_events = ["brushing_teeth", "brushing_teeth"]
-    #
-    #     with open(self.param_path + '.pkl', 'rb') as f:
-    #         optimized_params = pickle.load(f)
-    #
-    #     num_params = len(inspect.signature(self.inverse_event_specific_function).parameters) - 1
-    #     idx = self.all_adverbials.index(adverbial)
-    #
-    #     adverbial_params = [
-    #         optimized_params[len(self.all_events) * num_params + idx],
-    #         optimized_params[
-    #             len(self.all_events) * num_params + idx + len(self.all_adverbials)]
-    #     ]
-    #
-    #     result = []
-    #
-    #     for event in chosen_events:
-    #
-    #         event_idx = self.all_events.index(event)
-    #         event_params = optimized_params[event_idx:event_idx + num_params]
-    #
-    #         upper_raw = self.inverse_event_specific_function(self.gauss_inverse(self.vague_temp_upper_percentage, *adverbial_params),
-    #                                                          *event_params)
-    #         lower_raw = self.inverse_event_specific_function(self.gauss_inverse(self.vague_temp_lower_percentage, *adverbial_params),
-    #                                                          *event_params)
-    #
-    #         upper = max(0, self.safe_round(upper_raw))
-    #         lower = self.safe_round(lower_raw)
-    #
-    #         result.append((upper, lower, self.event_types[event] if len(chosen_events) > 1 else None))
-    #     return result
 
     def process(
             self,
             triples: List[Triple],
             pred: str,
-            vars: List[List[z3.ExprRef]],
-            var_order: List[z3.ExprRef],
+            vars,
+            var_order,
             dudes: DUDES,
             data: Dict[str, Any],
     ) -> Tuple[List[Triple], bool, Dict[str, Any]]:
@@ -517,34 +407,6 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
             mins_ago = self.get_minutes_ago(adverb, event)
             assert len(mins_ago) > 0
 
-            # if len(mins_ago) == 1:
-            #     triples.extend([
-            #         Triple(subject=var, predicate="ex:happensAt", object=var + "Interval"),
-            #         Triple(subject=var + "Interval", predicate="time:hasEnd", object=var + "End"),
-            #     ])
-            #     upper, lower, event_type = mins_ago[0]
-            #     assert min(upper, lower) < float('inf')
-            #     upper_date = self.vague_temp_ref_date.ref_date - timedelta(minutes=min(upper, lower))
-            #     data["filterdata"].append(FilterData(
-            #         var=var+"End",
-            #         operator="<=",
-            #         num='"' + upper_date.isoformat() + '"',
-            #         count=False,
-            #         datetime=True
-            #     ))
-            #
-            #     if max(upper, lower) < float('inf'):
-            #         lower_date = self.vague_temp_ref_date.ref_date - timedelta(minutes=max(upper, lower))
-            #         data["filterdata"].append(FilterData(
-            #             var=var+"End",
-            #             operator=">=",
-            #             num='"' + lower_date.isoformat() + '"',
-            #             count=False,
-            #             datetime=True
-            #         ))
-            #
-            #     updated = True
-            # else:
             triples.extend([
                 Triple(subject=var, predicate="ex:happensAt", object=var + "Interval"),
             ])
@@ -584,33 +446,6 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
                 updated = True
                 patterns.append(pattern)
             data["filterdata"].append(UnionData(patterns))
-                # fdisj = FilterCombinator(combinator=" || ")
-                # for upper, lower, event_type in mins_ago:
-                #     assert min(upper, lower) < float('inf')
-                #     upper_date = self.vague_temp_ref_date.ref_date - timedelta(minutes=min(upper, lower))
-                #     fconj = FilterCombinator(combinator=" && ")
-                #     fconj.filters.append(FilterData(
-                #         var=var + "End",
-                #         operator="<=",
-                #         num='"' + upper_date.isoformat() + '"',
-                #         count=False,
-                #         datetime=True
-                #     ))
-                #
-                #     if max(upper, lower) < float('inf'):
-                #         lower_date = self.vague_temp_ref_date.ref_date - timedelta(minutes=max(upper, lower))
-                #         fconj.filters.append(FilterData(
-                #             var=var + "End",
-                #             operator=">=",
-                #             num='"' + lower_date.isoformat() + '"',
-                #             count=False,
-                #             datetime=True
-                #         ))
-                #
-                #     updated = True
-                #     fdisj.filters.append(fconj)
-                # data["filterdata"].append(fdisj)
-
 
         return triples, updated, data
 

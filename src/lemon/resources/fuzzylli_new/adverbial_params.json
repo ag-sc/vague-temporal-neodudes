@@ -1,0 +1,14 @@
+{
+  "adverbial_means": {
+    "recently": 0.5098187612560927,
+    "just": 0.49289836863302283,
+    "some time ago": 0.770219931157485,
+    "long time ago": 0.9042054795307057
+  },
+  "adverbial_stds": {
+    "recently": 0.013492050494554566,
+    "just": 0.011719672189601238,
+    "some time ago": 0.200810201936729,
+    "long time ago": 0.20198743812913236
+  }
+}

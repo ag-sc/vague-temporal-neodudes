@@ -1,0 +1,57 @@
+[
+  {
+    "event_type": "ex:Bathing",
+    "label": "Bathing",
+    "examples": ["take a bath", "take a shower", "showering", "washing body"]
+  },
+  {
+    "event_type": "ex:Housekeeping",
+    "label": "Housekeeping",
+    "examples": ["clean the house", "cleaning room", "doing chores", "house cleaning"]
+  },
+  {
+    "event_type": "ex:Personal_Hygiene",
+    "label": "Personal hygiene",
+    "examples": ["care and hygiene", "personal care", "washing hands", "grooming"]
+  },
+  {
+    "event_type": "ex:Leave_Home",
+    "label": "Leave home",
+    "examples": ["left home", "leaving the house", "went out from home", "exit home"]
+  },
+  {
+    "event_type": "ex:Out_of_Home",
+    "label": "Out of home",
+    "examples": ["return home", "came back home", "outside home", "away from home"]
+  },
+  {
+    "event_type": "ex:Meal_Preparation",
+    "label": "Meal preparation",
+    "examples": ["prepare a meal", "preparing dinner", "cooking food", "make lunch"]
+  },
+  {
+    "event_type": "ex:Sleep",
+    "label": "Sleep",
+    "examples": ["sleeping", "slept", "go to bed", "taking a nap"]
+  },
+  {
+    "event_type": "ex:Bed_Toilet_Transition",
+    "label": "Bed toilet transition",
+    "examples": ["go to the toilet", "toilet visit", "bathroom at night", "bed to toilet"]
+  },
+  {
+    "event_type": "ex:Watch_TV",
+    "label": "Watch TV",
+    "examples": ["watch television", "watched tv", "watching a show", "viewing television"]
+  },
+  {
+    "event_type": "ex:Work",
+    "label": "Work",
+    "examples": ["working", "do work", "job task", "office work"]
+  },
+  {
+    "event_type": "ex:Eating",
+    "label": "Eating",
+    "examples": ["eat food", "ate meal", "having breakfast", "having dinner"]
+  }
+]

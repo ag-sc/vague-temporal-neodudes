@@ -21,8 +21,6 @@ sphinx
 sparqlwrapper
 compress_pickle
 openai==1.61.0
-pygraphviz
-graphviz
 sqlitedict
 zstandard
 numerizer
@@ -63,3 +61,5 @@ seaborn
 pandas-stubs
 types-seaborn
 types-networkx
+scipy
+sentence_transformers
