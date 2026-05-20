@@ -1,5 +1,7 @@
 # Artifact "Question Answering over Linked Data with Vague Temporal Adverbials"
 
+DOI: [10.5220/0013778400004000](https://doi.org/10.5220/0013778400004000)
+
 ## Setup
 
 We suggest using Python 3.11 to run this artifact, older versions have not been tested. The following instructions should work for most major Linux distributions.
