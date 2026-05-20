@@ -4,6 +4,10 @@ import datetime
 import json
 import logging
 import multiprocessing
+try:
+   multiprocessing.set_start_method('spawn', force=True)
+except RuntimeError:
+   pass
 import os
 import sys
 from argparse import ArgumentParser

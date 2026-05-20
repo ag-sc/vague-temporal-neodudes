@@ -25,6 +25,19 @@ import json
 import joblib
 from scipy.special import erfinv
 from sentence_transformers import SentenceTransformer
+import torch
+import multiprocessing
+
+try:
+   multiprocessing.set_start_method('spawn', force=True)
+except RuntimeError:
+   pass
+try:
+   torch.multiprocessing.set_start_method('spawn', force=True)
+except RuntimeError:
+   pass
+#multiprocessing.set_start_method('spawn')
+#torch.multiprocessing.set_start_method('spawn')
 
 class TripleGeneratorModule(ABC):
     def __init__(
@@ -226,7 +239,7 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
             raise ValueError("Invalid ref_date type")
         self.vague_temp_ref_date = vague_temp_ref_date
 
-        self._embedding_model = SentenceTransformer("paraphrase-MiniLM-L6-v2", device='cpu')
+        self._embedding_model = SentenceTransformer("paraphrase-MiniLM-L6-v2")#, device='cpu')
         with open(os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "fuzzylli_new", "adverbial_params.json"), "r", encoding="utf-8") as fh:
             self._adverbial_params = json.load(fh)
         with open(os.path.join(os.path.dirname(sys.modules["lemon"].__file__), "resources", "fuzzylli_new", "kgqa_event_types.json"), "r", encoding="utf-8") as fh:
