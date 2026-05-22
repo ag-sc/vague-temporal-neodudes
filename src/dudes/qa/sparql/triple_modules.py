@@ -388,8 +388,8 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
 
         res = [
             (
-                interval["upper_minutes_ago"],
                 interval["lower_minutes_ago"],
+                interval["upper_minutes_ago"],
                 prediction["clean_event_type"],
             )
         ]

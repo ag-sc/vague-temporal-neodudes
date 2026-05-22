@@ -1,0 +1,4682 @@
+[
+    {
+        "ref_date": "2014-06-09T02:24:42.035968",
+        "activity_end_date": "2009-09-02T07:02:42.035968",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-11-09T20:24:42.035968",
+        "activity_end_date": "2009-09-02T07:02:42.035968",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2021-04-21T17:38:42.035968",
+        "activity_end_date": "2009-09-02T07:02:42.035968",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2027-09-14T14:22:42.035968",
+        "activity_end_date": "2009-09-02T07:02:42.035968",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2019-05-19T06:53:42.035968",
+        "activity_end_date": "2009-09-02T07:02:42.035968",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-24T21:18:08.075358",
+        "activity_end_date": "2009-08-24T00:27:08.075358",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-28T20:35:08.075358",
+        "activity_end_date": "2009-08-24T00:27:08.075358",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T08:56:08.075358",
+        "activity_end_date": "2009-08-24T00:27:08.075358",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-18T23:54:08.075358",
+        "activity_end_date": "2009-08-24T00:27:08.075358",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-09T13:39:08.075358",
+        "activity_end_date": "2009-08-24T00:27:08.075358",
+        "question": "Did Tom sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2011-02-24T11:52:58.017162",
+        "activity_end_date": "2010-03-04T03:56:58.017162",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-10-06T09:57:58.017162",
+        "activity_end_date": "2010-03-04T03:56:58.017162",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2020-09-30T07:51:58.017162",
+        "activity_end_date": "2010-03-04T03:56:58.017162",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2015-03-20T20:22:58.017162",
+        "activity_end_date": "2010-03-04T03:56:58.017162",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2013-08-01T04:42:58.017162",
+        "activity_end_date": "2010-03-04T03:56:58.017162",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-22T13:03:26.031392",
+        "activity_end_date": "2009-08-24T00:29:26.031392",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-26T00:40:26.031392",
+        "activity_end_date": "2009-08-24T00:29:26.031392",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-30T09:30:26.031392",
+        "activity_end_date": "2009-08-24T00:29:26.031392",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-29T03:38:26.031392",
+        "activity_end_date": "2009-08-24T00:29:26.031392",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-29T12:22:26.031392",
+        "activity_end_date": "2009-08-24T00:29:26.031392",
+        "question": "Did Tom go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2024-05-26T18:05:17.057171",
+        "activity_end_date": "2010-02-04T00:47:17.057171",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2020-06-15T18:17:17.057171",
+        "activity_end_date": "2010-02-04T00:47:17.057171",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2021-12-01T05:27:17.057171",
+        "activity_end_date": "2010-02-04T00:47:17.057171",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2028-09-11T10:51:17.057171",
+        "activity_end_date": "2010-02-04T00:47:17.057171",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2012-05-23T14:18:17.057171",
+        "activity_end_date": "2010-02-04T00:47:17.057171",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-05T12:53:48.000383",
+        "activity_end_date": "2009-08-24T06:37:48.000383",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-26T01:50:48.000383",
+        "activity_end_date": "2009-08-24T06:37:48.000383",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-24T14:32:48.000383",
+        "activity_end_date": "2009-08-24T06:37:48.000383",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-22T00:38:48.000383",
+        "activity_end_date": "2009-08-24T06:37:48.000383",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-20T22:27:48.000383",
+        "activity_end_date": "2009-08-24T06:37:48.000383",
+        "question": "Did Tom take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2020-12-07T05:54:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-05-01T14:26:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-07-31T06:16:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2013-03-08T09:54:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-05-27T09:11:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T21:11:02.098475",
+        "activity_end_date": "2009-08-24T06:51:02.098475",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-26T17:03:02.098475",
+        "activity_end_date": "2009-08-24T06:51:02.098475",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-08T08:55:02.098475",
+        "activity_end_date": "2009-08-24T06:51:02.098475",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-04T00:30:02.098475",
+        "activity_end_date": "2009-08-24T06:51:02.098475",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-29T05:01:02.098475",
+        "activity_end_date": "2009-08-24T06:51:02.098475",
+        "question": "Did Tom take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2023-04-11T23:40:55.000448",
+        "activity_end_date": "2009-12-07T08:30:55.000448",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2013-10-02T02:17:55.000448",
+        "activity_end_date": "2009-12-07T08:30:55.000448",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2025-12-18T02:27:55.000448",
+        "activity_end_date": "2009-12-07T08:30:55.000448",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2025-04-11T11:33:55.000448",
+        "activity_end_date": "2009-12-07T08:30:55.000448",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-08-28T03:26:55.000448",
+        "activity_end_date": "2009-12-07T08:30:55.000448",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T12:00:45.074949",
+        "activity_end_date": "2009-08-24T07:08:45.074949",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-26T15:08:45.074949",
+        "activity_end_date": "2009-08-24T07:08:45.074949",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-12T03:49:45.074949",
+        "activity_end_date": "2009-08-24T07:08:45.074949",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-15T05:05:45.074949",
+        "activity_end_date": "2009-08-24T07:08:45.074949",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-21T10:56:45.074949",
+        "activity_end_date": "2009-08-24T07:08:45.074949",
+        "question": "Did Tom do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2022-12-21T14:13:14.064389",
+        "activity_end_date": "2009-09-01T23:57:14.064389",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2018-09-19T23:31:14.064389",
+        "activity_end_date": "2009-09-01T23:57:14.064389",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2023-03-27T23:31:14.064389",
+        "activity_end_date": "2009-09-01T23:57:14.064389",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2011-05-12T20:57:14.064389",
+        "activity_end_date": "2009-09-01T23:57:14.064389",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2020-11-03T08:43:14.064389",
+        "activity_end_date": "2009-09-01T23:57:14.064389",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-12T15:52:09.096406",
+        "activity_end_date": "2009-08-24T23:05:09.096406",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-25T16:05:09.096406",
+        "activity_end_date": "2009-08-24T23:05:09.096406",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-04T11:42:09.096406",
+        "activity_end_date": "2009-08-24T23:05:09.096406",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-25T23:53:09.096406",
+        "activity_end_date": "2009-08-24T23:05:09.096406",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-29T20:39:09.096406",
+        "activity_end_date": "2009-08-24T23:05:09.096406",
+        "question": "Did Tom return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2027-02-14T13:11:47.026189",
+        "activity_end_date": "2010-04-21T08:56:47.026189",
+        "question": "Did Tom work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2016-08-04T10:06:47.026189",
+        "activity_end_date": "2010-04-21T08:56:47.026189",
+        "question": "Did Tom work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-04-26T22:06:47.026189",
+        "activity_end_date": "2010-04-21T08:56:47.026189",
+        "question": "Did Tom work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2012-02-10T04:51:47.026189",
+        "activity_end_date": "2010-04-21T08:56:47.026189",
+        "question": "Did Tom work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2018-03-01T21:15:47.026189",
+        "activity_end_date": "2010-04-21T08:56:47.026189",
+        "question": "Did Tom work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-20T09:42:35.007457",
+        "activity_end_date": "2009-08-24T23:46:35.007457",
+        "question": "Did Tom work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-16T21:40:35.007457",
+        "activity_end_date": "2009-08-24T23:46:35.007457",
+        "question": "Did Tom work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-15T07:11:35.007457",
+        "activity_end_date": "2009-08-24T23:46:35.007457",
+        "question": "Did Tom work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-17T14:30:35.007457",
+        "activity_end_date": "2009-08-24T23:46:35.007457",
+        "question": "Did Tom work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-09T11:10:35.007457",
+        "activity_end_date": "2009-08-24T23:46:35.007457",
+        "question": "Did Tom work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2014-12-02T13:17:43.019818",
+        "activity_end_date": "2009-12-03T23:02:43.019818",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2020-07-29T05:00:43.019818",
+        "activity_end_date": "2009-12-03T23:02:43.019818",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2015-11-03T02:48:43.019818",
+        "activity_end_date": "2009-12-03T23:02:43.019818",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2027-12-20T17:46:43.019818",
+        "activity_end_date": "2009-12-03T23:02:43.019818",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2012-02-04T22:26:43.019818",
+        "activity_end_date": "2009-12-03T23:02:43.019818",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-21T09:09:25.027421",
+        "activity_end_date": "2009-08-27T08:11:25.027421",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-27T18:25:25.027421",
+        "activity_end_date": "2009-08-27T08:11:25.027421",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-05T02:37:25.027421",
+        "activity_end_date": "2009-08-27T08:11:25.027421",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-08T20:10:25.027421",
+        "activity_end_date": "2009-08-27T08:11:25.027421",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-08T01:12:25.027421",
+        "activity_end_date": "2009-08-27T08:11:25.027421",
+        "question": "Did Tom eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2016-07-07T18:49:26.046495",
+        "activity_end_date": "2009-11-14T00:16:26.046495",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2025-07-02T17:58:26.046495",
+        "activity_end_date": "2009-11-14T00:16:26.046495",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-07-16T19:43:26.046495",
+        "activity_end_date": "2009-11-14T00:16:26.046495",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2023-04-14T07:46:26.046495",
+        "activity_end_date": "2009-11-14T00:16:26.046495",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2023-11-01T10:52:26.046495",
+        "activity_end_date": "2009-11-14T00:16:26.046495",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-05T06:51:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-04T13:54:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-09T13:29:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-14T16:27:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-21T16:33:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2027-02-08T20:17:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2023-05-25T18:54:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2024-01-20T23:26:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2024-11-12T08:55:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2012-06-27T22:19:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-13T01:23:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-06T21:02:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-24T03:53:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-01T07:24:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-20T17:09:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-16T03:32:28.032537",
+        "activity_end_date": "2010-03-26T00:09:28.032537",
+        "question": "Did Tom sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-21T14:25:28.032537",
+        "activity_end_date": "2010-03-26T00:09:28.032537",
+        "question": "Did Tom sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-23T10:34:28.032537",
+        "activity_end_date": "2010-03-26T00:09:28.032537",
+        "question": "Did Tom sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-20T15:06:28.032537",
+        "activity_end_date": "2010-03-26T00:09:28.032537",
+        "question": "Did Tom sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-10T09:19:28.032537",
+        "activity_end_date": "2010-03-26T00:09:28.032537",
+        "question": "Did Tom sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-13T02:48:32.088102",
+        "activity_end_date": "2009-09-08T04:58:32.088102",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-13T05:38:32.088102",
+        "activity_end_date": "2009-09-08T04:58:32.088102",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-17T09:36:32.088102",
+        "activity_end_date": "2009-09-08T04:58:32.088102",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-14T10:39:32.088102",
+        "activity_end_date": "2009-09-08T04:58:32.088102",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-16T12:01:32.088102",
+        "activity_end_date": "2009-09-08T04:58:32.088102",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-30T04:56:40.090234",
+        "activity_end_date": "2009-10-20T04:17:40.090234",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-30T02:38:40.090234",
+        "activity_end_date": "2009-10-20T04:17:40.090234",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-30T03:33:40.090234",
+        "activity_end_date": "2009-10-20T04:17:40.090234",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-30T02:52:40.090234",
+        "activity_end_date": "2009-10-20T04:17:40.090234",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-30T04:29:40.090234",
+        "activity_end_date": "2009-10-20T04:17:40.090234",
+        "question": "Did Tom go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-19T07:16:41.004782",
+        "activity_end_date": "2009-10-13T02:16:41.004782",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-18T21:27:41.004782",
+        "activity_end_date": "2009-10-13T02:16:41.004782",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-21T20:28:41.004782",
+        "activity_end_date": "2009-10-13T02:16:41.004782",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-18T03:20:41.004782",
+        "activity_end_date": "2009-10-13T02:16:41.004782",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-21T17:04:41.004782",
+        "activity_end_date": "2009-10-13T02:16:41.004782",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-02T04:24:39.008495",
+        "activity_end_date": "2009-12-23T04:32:39.008495",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T04:34:39.008495",
+        "activity_end_date": "2009-12-23T04:32:39.008495",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T05:12:39.008495",
+        "activity_end_date": "2009-12-23T04:32:39.008495",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T04:41:39.008495",
+        "activity_end_date": "2009-12-23T04:32:39.008495",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T04:57:39.008495",
+        "activity_end_date": "2009-12-23T04:32:39.008495",
+        "question": "Did Tom take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-15T02:42:15.018404",
+        "activity_end_date": "2009-09-05T09:00:15.018404",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-12T19:53:15.018404",
+        "activity_end_date": "2009-09-05T09:00:15.018404",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-10T19:02:15.018404",
+        "activity_end_date": "2009-09-05T09:00:15.018404",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-11T15:33:15.018404",
+        "activity_end_date": "2009-09-05T09:00:15.018404",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-11T01:41:15.018404",
+        "activity_end_date": "2009-09-05T09:00:15.018404",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-03T04:01:53.000804",
+        "activity_end_date": "2009-10-24T05:43:53.000804",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-03T05:18:53.000804",
+        "activity_end_date": "2009-10-24T05:43:53.000804",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-03T05:17:53.000804",
+        "activity_end_date": "2009-10-24T05:43:53.000804",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-03T05:33:53.000804",
+        "activity_end_date": "2009-10-24T05:43:53.000804",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-03T04:50:53.000804",
+        "activity_end_date": "2009-10-24T05:43:53.000804",
+        "question": "Did Tom take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-24T12:22:48.025149",
+        "activity_end_date": "2009-10-20T00:31:48.025149",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-27T03:43:48.025149",
+        "activity_end_date": "2009-10-20T00:31:48.025149",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-26T07:44:48.025149",
+        "activity_end_date": "2009-10-20T00:31:48.025149",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-24T12:32:48.025149",
+        "activity_end_date": "2009-10-20T00:31:48.025149",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-24T09:10:48.025149",
+        "activity_end_date": "2009-10-20T00:31:48.025149",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-18T22:40:37.095353",
+        "activity_end_date": "2009-12-08T23:02:37.095353",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T21:26:37.095353",
+        "activity_end_date": "2009-12-08T23:02:37.095353",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T22:02:37.095353",
+        "activity_end_date": "2009-12-08T23:02:37.095353",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T22:44:37.095353",
+        "activity_end_date": "2009-12-08T23:02:37.095353",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T22:00:37.095353",
+        "activity_end_date": "2009-12-08T23:02:37.095353",
+        "question": "Did Tom do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-27T06:43:01.087645",
+        "activity_end_date": "2010-04-03T00:55:01.087645",
+        "question": "Did Tom return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-27T06:28:01.087645",
+        "activity_end_date": "2010-04-03T00:55:01.087645",
+        "question": "Did Tom return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-22T05:51:01.087645",
+        "activity_end_date": "2010-04-03T00:55:01.087645",
+        "question": "Did Tom return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-15T04:58:01.087645",
+        "activity_end_date": "2010-04-03T00:55:01.087645",
+        "question": "Did Tom return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-29T05:50:01.087645",
+        "activity_end_date": "2010-04-03T00:55:01.087645",
+        "question": "Did Tom return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-30T21:59:01.059503",
+        "activity_end_date": "2010-03-10T08:31:01.059503",
+        "question": "Did Tom work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-06T01:12:01.059503",
+        "activity_end_date": "2010-03-10T08:31:01.059503",
+        "question": "Did Tom work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-04T07:07:01.059503",
+        "activity_end_date": "2010-03-10T08:31:01.059503",
+        "question": "Did Tom work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-28T09:41:01.059503",
+        "activity_end_date": "2010-03-10T08:31:01.059503",
+        "question": "Did Tom work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-23T21:10:01.059503",
+        "activity_end_date": "2010-03-10T08:31:01.059503",
+        "question": "Did Tom work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-14T03:19:29.048702",
+        "activity_end_date": "2009-12-07T01:18:29.048702",
+        "question": "Did Tom eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-13T23:01:29.048702",
+        "activity_end_date": "2009-12-07T01:18:29.048702",
+        "question": "Did Tom eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-14T16:35:29.048702",
+        "activity_end_date": "2009-12-07T01:18:29.048702",
+        "question": "Did Tom eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-16T01:16:29.048702",
+        "activity_end_date": "2009-12-07T01:18:29.048702",
+        "question": "Did Tom eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-11T16:56:29.048702",
+        "activity_end_date": "2009-12-07T01:18:29.048702",
+        "question": "Did Tom eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-28T03:29:21.006727",
+        "activity_end_date": "2010-01-18T03:53:21.006727",
+        "question": "Did Tom eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-28T03:28:21.006727",
+        "activity_end_date": "2010-01-18T03:53:21.006727",
+        "question": "Did Tom eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-28T04:26:21.006727",
+        "activity_end_date": "2010-01-18T03:53:21.006727",
+        "question": "Did Tom eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-28T03:25:21.006727",
+        "activity_end_date": "2010-01-18T03:53:21.006727",
+        "question": "Did Tom eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-28T03:44:21.006727",
+        "activity_end_date": "2010-01-18T03:53:21.006727",
+        "question": "Did Tom eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T03:56:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-12T06:24:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-14T18:57:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-15T01:24:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-18T05:34:02.098146",
+        "activity_end_date": "2009-08-28T23:30:02.098146",
+        "question": "Did Tom watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-18T19:56:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-24T05:22:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-18T07:27:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T20:41:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-16T11:33:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-28T03:49:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-28T03:30:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-28T05:38:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-28T03:28:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-28T04:50:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-26T04:57:38.004601",
+        "activity_end_date": "2009-10-25T08:58:38.004601",
+        "question": "Did Tom sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-26T04:26:38.004601",
+        "activity_end_date": "2009-10-25T08:58:38.004601",
+        "question": "Did Tom sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-26T02:31:38.004601",
+        "activity_end_date": "2009-10-25T08:58:38.004601",
+        "question": "Did Tom sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-26T06:41:38.004601",
+        "activity_end_date": "2009-10-25T08:58:38.004601",
+        "question": "Did Tom sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-25T22:47:38.004601",
+        "activity_end_date": "2009-10-25T08:58:38.004601",
+        "question": "Did Tom sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-08T09:26:34.074596",
+        "activity_end_date": "2009-11-07T09:01:34.074596",
+        "question": "Did Tom sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-08T10:14:34.074596",
+        "activity_end_date": "2009-11-07T09:01:34.074596",
+        "question": "Did Tom sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-08T09:32:34.074596",
+        "activity_end_date": "2009-11-07T09:01:34.074596",
+        "question": "Did Tom sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-08T11:43:34.074596",
+        "activity_end_date": "2009-11-07T09:01:34.074596",
+        "question": "Did Tom sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-08T11:51:34.074596",
+        "activity_end_date": "2009-11-07T09:01:34.074596",
+        "question": "Did Tom sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T03:49:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T06:20:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T06:25:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T00:06:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T07:16:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T09:01:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T08:56:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T08:24:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T09:47:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T09:30:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-24T14:37:28.038005",
+        "activity_end_date": "2010-02-24T08:17:28.038005",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T16:19:28.038005",
+        "activity_end_date": "2010-02-24T08:17:28.038005",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T11:38:28.038005",
+        "activity_end_date": "2010-02-24T08:17:28.038005",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T09:21:28.038005",
+        "activity_end_date": "2010-02-24T08:17:28.038005",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T13:46:28.038005",
+        "activity_end_date": "2010-02-24T08:17:28.038005",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-17T18:28:59.054079",
+        "activity_end_date": "2009-09-17T08:51:59.054079",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-17T17:20:59.054079",
+        "activity_end_date": "2009-09-17T08:51:59.054079",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-17T17:21:59.054079",
+        "activity_end_date": "2009-09-17T08:51:59.054079",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-17T18:58:59.054079",
+        "activity_end_date": "2009-09-17T08:51:59.054079",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-17T18:32:59.054079",
+        "activity_end_date": "2009-09-17T08:51:59.054079",
+        "question": "Did Tom take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-19T10:16:10.093787",
+        "activity_end_date": "2009-10-19T07:10:10.093787",
+        "question": "Did Tom take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-19T09:55:10.093787",
+        "activity_end_date": "2009-10-19T07:10:10.093787",
+        "question": "Did Tom take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-19T07:53:10.093787",
+        "activity_end_date": "2009-10-19T07:10:10.093787",
+        "question": "Did Tom take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-19T09:52:10.093787",
+        "activity_end_date": "2009-10-19T07:10:10.093787",
+        "question": "Did Tom take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-19T10:20:10.093787",
+        "activity_end_date": "2009-10-19T07:10:10.093787",
+        "question": "Did Tom take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-03T17:53:17.005033",
+        "activity_end_date": "2009-12-03T08:03:17.005033",
+        "question": "Did Tom take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-03T16:35:17.005033",
+        "activity_end_date": "2009-12-03T08:03:17.005033",
+        "question": "Did Tom take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-03T16:56:17.005033",
+        "activity_end_date": "2009-12-03T08:03:17.005033",
+        "question": "Did Tom take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-03T16:26:17.005033",
+        "activity_end_date": "2009-12-03T08:03:17.005033",
+        "question": "Did Tom take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-03T18:28:17.005033",
+        "activity_end_date": "2009-12-03T08:03:17.005033",
+        "question": "Did Tom take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-22T09:17:34.005267",
+        "activity_end_date": "2010-02-22T08:23:34.005267",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-22T16:18:34.005267",
+        "activity_end_date": "2010-02-22T08:23:34.005267",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-22T09:51:34.005267",
+        "activity_end_date": "2010-02-22T08:23:34.005267",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-22T10:24:34.005267",
+        "activity_end_date": "2010-02-22T08:23:34.005267",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-22T11:57:34.005267",
+        "activity_end_date": "2010-02-22T08:23:34.005267",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-19T19:12:02.010434",
+        "activity_end_date": "2010-02-19T08:34:02.010434",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T17:27:02.010434",
+        "activity_end_date": "2010-02-19T08:34:02.010434",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T17:06:02.010434",
+        "activity_end_date": "2010-02-19T08:34:02.010434",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T17:04:02.010434",
+        "activity_end_date": "2010-02-19T08:34:02.010434",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T19:05:02.010434",
+        "activity_end_date": "2010-02-19T08:34:02.010434",
+        "question": "Did Tom do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-04T15:01:41.031032",
+        "activity_end_date": "2010-04-04T01:32:41.031032",
+        "question": "Did Tom return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-04T06:12:41.031032",
+        "activity_end_date": "2010-04-04T01:32:41.031032",
+        "question": "Did Tom return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-04T13:36:41.031032",
+        "activity_end_date": "2010-04-04T01:32:41.031032",
+        "question": "Did Tom return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-04T03:08:41.031032",
+        "activity_end_date": "2010-04-04T01:32:41.031032",
+        "question": "Did Tom return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-04T06:07:41.031032",
+        "activity_end_date": "2010-04-04T01:32:41.031032",
+        "question": "Did Tom return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-02T10:21:17.012974",
+        "activity_end_date": "2010-04-01T08:19:17.012974",
+        "question": "Did Tom return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T10:17:17.012974",
+        "activity_end_date": "2010-04-01T08:19:17.012974",
+        "question": "Did Tom return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T11:08:17.012974",
+        "activity_end_date": "2010-04-01T08:19:17.012974",
+        "question": "Did Tom return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T10:04:17.012974",
+        "activity_end_date": "2010-04-01T08:19:17.012974",
+        "question": "Did Tom return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T08:55:17.012974",
+        "activity_end_date": "2010-04-01T08:19:17.012974",
+        "question": "Did Tom return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-03-26T09:42:59.039319",
+        "activity_end_date": "2010-03-26T00:35:59.039319",
+        "question": "Did Tom work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-26T20:06:59.039319",
+        "activity_end_date": "2010-03-26T00:35:59.039319",
+        "question": "Did Tom work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-26T14:46:59.039319",
+        "activity_end_date": "2010-03-26T00:35:59.039319",
+        "question": "Did Tom work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-26T13:54:59.039319",
+        "activity_end_date": "2010-03-26T00:35:59.039319",
+        "question": "Did Tom work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-26T13:56:59.039319",
+        "activity_end_date": "2010-03-26T00:35:59.039319",
+        "question": "Did Tom work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-28T02:34:18.039459",
+        "activity_end_date": "2010-02-27T00:31:18.039459",
+        "question": "Did Tom work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-28T03:19:18.039459",
+        "activity_end_date": "2010-02-27T00:31:18.039459",
+        "question": "Did Tom work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-28T03:11:18.039459",
+        "activity_end_date": "2010-02-27T00:31:18.039459",
+        "question": "Did Tom work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-28T03:21:18.039459",
+        "activity_end_date": "2010-02-27T00:31:18.039459",
+        "question": "Did Tom work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-28T02:47:18.039459",
+        "activity_end_date": "2010-02-27T00:31:18.039459",
+        "question": "Did Tom work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-01T03:58:14.072305",
+        "activity_end_date": "2010-02-01T00:10:14.072305",
+        "question": "Did Tom eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-01T07:09:14.072305",
+        "activity_end_date": "2010-02-01T00:10:14.072305",
+        "question": "Did Tom eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-01T02:03:14.072305",
+        "activity_end_date": "2010-02-01T00:10:14.072305",
+        "question": "Did Tom eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-01T02:10:14.072305",
+        "activity_end_date": "2010-02-01T00:10:14.072305",
+        "question": "Did Tom eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-01T01:20:14.072305",
+        "activity_end_date": "2010-02-01T00:10:14.072305",
+        "question": "Did Tom eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-15T10:52:25.014729",
+        "activity_end_date": "2010-01-15T00:06:25.014729",
+        "question": "Did Tom eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-15T09:58:25.014729",
+        "activity_end_date": "2010-01-15T00:06:25.014729",
+        "question": "Did Tom eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-15T09:59:25.014729",
+        "activity_end_date": "2010-01-15T00:06:25.014729",
+        "question": "Did Tom eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-15T09:30:25.014729",
+        "activity_end_date": "2010-01-15T00:06:25.014729",
+        "question": "Did Tom eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-15T10:27:25.014729",
+        "activity_end_date": "2010-01-15T00:06:25.014729",
+        "question": "Did Tom eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-14T15:34:33.032687",
+        "activity_end_date": "2009-10-14T01:32:33.032687",
+        "question": "Did Tom watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-14T15:56:33.032687",
+        "activity_end_date": "2009-10-14T01:32:33.032687",
+        "question": "Did Tom watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-14T05:17:33.032687",
+        "activity_end_date": "2009-10-14T01:32:33.032687",
+        "question": "Did Tom watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-14T16:40:33.032687",
+        "activity_end_date": "2009-10-14T01:32:33.032687",
+        "question": "Did Tom watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-14T13:23:33.032687",
+        "activity_end_date": "2009-10-14T01:32:33.032687",
+        "question": "Did Tom watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-06T02:00:00.000913",
+        "activity_end_date": "2009-11-05T00:44:00.000913",
+        "question": "Did Tom watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T01:58:00.000913",
+        "activity_end_date": "2009-11-05T00:44:00.000913",
+        "question": "Did Tom watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T01:36:00.000913",
+        "activity_end_date": "2009-11-05T00:44:00.000913",
+        "question": "Did Tom watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T02:29:00.000913",
+        "activity_end_date": "2009-11-05T00:44:00.000913",
+        "question": "Did Tom watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T02:01:00.000913",
+        "activity_end_date": "2009-11-05T00:44:00.000913",
+        "question": "Did Tom watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T14:42:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T23:42:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T12:06:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T06:56:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T03:12:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-31T02:41:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-31T00:44:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-31T00:45:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-31T02:15:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-31T01:22:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom clean the house recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T06:08:57.054622",
+        "activity_end_date": "2009-09-25T00:01:57.054622",
+        "question": "Did Tom just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T03:15:57.054622",
+        "activity_end_date": "2009-09-25T00:01:57.054622",
+        "question": "Did Tom just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T03:57:57.054622",
+        "activity_end_date": "2009-09-25T00:01:57.054622",
+        "question": "Did Tom just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T01:29:57.054622",
+        "activity_end_date": "2009-09-25T00:01:57.054622",
+        "question": "Did Tom just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T02:00:57.054622",
+        "activity_end_date": "2009-09-25T00:01:57.054622",
+        "question": "Did Tom just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-06T15:32:31.058833",
+        "activity_end_date": "2009-11-06T07:11:31.058833",
+        "question": "Did Tom just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T14:39:31.058833",
+        "activity_end_date": "2009-11-06T07:11:31.058833",
+        "question": "Did Tom just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T14:18:31.058833",
+        "activity_end_date": "2009-11-06T07:11:31.058833",
+        "question": "Did Tom just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T14:47:31.058833",
+        "activity_end_date": "2009-11-06T07:11:31.058833",
+        "question": "Did Tom just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-06T16:05:31.058833",
+        "activity_end_date": "2009-11-06T07:11:31.058833",
+        "question": "Did Tom just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T01:01:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T00:34:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T00:36:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T01:30:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-25T02:15:59.052165",
+        "activity_end_date": "2009-09-25T00:03:59.052165",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T08:59:11.071477",
+        "activity_end_date": "2009-08-30T04:43:11.071477",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T09:23:11.071477",
+        "activity_end_date": "2009-08-30T04:43:11.071477",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T09:21:11.071477",
+        "activity_end_date": "2009-08-30T04:43:11.071477",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T07:29:11.071477",
+        "activity_end_date": "2009-08-30T04:43:11.071477",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T09:03:11.071477",
+        "activity_end_date": "2009-08-30T04:43:11.071477",
+        "question": "Did Tom just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-25T04:13:51.004857",
+        "activity_end_date": "2010-04-25T04:00:51.004857",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-25T05:36:51.004857",
+        "activity_end_date": "2010-04-25T04:00:51.004857",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-25T05:33:51.004857",
+        "activity_end_date": "2010-04-25T04:00:51.004857",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-25T05:10:51.004857",
+        "activity_end_date": "2010-04-25T04:00:51.004857",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-25T05:32:51.004857",
+        "activity_end_date": "2010-04-25T04:00:51.004857",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-12T10:51:19.085309",
+        "activity_end_date": "2010-04-12T08:24:19.085309",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-12T11:34:19.085309",
+        "activity_end_date": "2010-04-12T08:24:19.085309",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-12T13:09:19.085309",
+        "activity_end_date": "2010-04-12T08:24:19.085309",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-12T12:24:19.085309",
+        "activity_end_date": "2010-04-12T08:24:19.085309",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-12T12:55:19.085309",
+        "activity_end_date": "2010-04-12T08:24:19.085309",
+        "question": "Did Tom just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-11T07:19:45.008602",
+        "activity_end_date": "2009-09-11T06:53:45.008602",
+        "question": "Did Tom just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-11T09:09:45.008602",
+        "activity_end_date": "2009-09-11T06:53:45.008602",
+        "question": "Did Tom just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-11T09:06:45.008602",
+        "activity_end_date": "2009-09-11T06:53:45.008602",
+        "question": "Did Tom just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-11T07:28:45.008602",
+        "activity_end_date": "2009-09-11T06:53:45.008602",
+        "question": "Did Tom just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-11T07:47:45.008602",
+        "activity_end_date": "2009-09-11T06:53:45.008602",
+        "question": "Did Tom just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-13T12:02:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-13T10:56:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-13T12:40:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-13T10:56:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-13T10:18:48.083075",
+        "activity_end_date": "2010-01-13T07:56:48.083075",
+        "question": "Did Tom just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-16T10:15:59.073335",
+        "activity_end_date": "2009-11-16T08:34:59.073335",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-16T09:51:59.073335",
+        "activity_end_date": "2009-11-16T08:34:59.073335",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-16T08:35:59.073335",
+        "activity_end_date": "2009-11-16T08:34:59.073335",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-16T08:53:59.073335",
+        "activity_end_date": "2009-11-16T08:34:59.073335",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-16T10:28:59.073335",
+        "activity_end_date": "2009-11-16T08:34:59.073335",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-09T09:20:37.090933",
+        "activity_end_date": "2010-04-09T04:41:37.090933",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-09T08:55:37.090933",
+        "activity_end_date": "2010-04-09T04:41:37.090933",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-09T09:20:37.090933",
+        "activity_end_date": "2010-04-09T04:41:37.090933",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-09T07:55:37.090933",
+        "activity_end_date": "2010-04-09T04:41:37.090933",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-09T08:45:37.090933",
+        "activity_end_date": "2010-04-09T04:41:37.090933",
+        "question": "Did Tom just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-15T03:40:41.070227",
+        "activity_end_date": "2010-02-15T01:13:41.070227",
+        "question": "Did Tom just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-15T02:27:41.070227",
+        "activity_end_date": "2010-02-15T01:13:41.070227",
+        "question": "Did Tom just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-15T05:16:41.070227",
+        "activity_end_date": "2010-02-15T01:13:41.070227",
+        "question": "Did Tom just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-15T07:06:41.070227",
+        "activity_end_date": "2010-02-15T01:13:41.070227",
+        "question": "Did Tom just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-15T04:03:41.070227",
+        "activity_end_date": "2010-02-15T01:13:41.070227",
+        "question": "Did Tom just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T13:07:46.061066",
+        "activity_end_date": "2010-02-24T03:54:46.061066",
+        "question": "Did Tom just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-24T11:37:46.061066",
+        "activity_end_date": "2010-02-24T03:54:46.061066",
+        "question": "Did Tom just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-24T12:26:46.061066",
+        "activity_end_date": "2010-02-24T03:54:46.061066",
+        "question": "Did Tom just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-24T11:24:46.061066",
+        "activity_end_date": "2010-02-24T03:54:46.061066",
+        "question": "Did Tom just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-24T11:01:46.061066",
+        "activity_end_date": "2010-02-24T03:54:46.061066",
+        "question": "Did Tom just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-08T03:15:19.088109",
+        "activity_end_date": "2010-02-07T23:41:19.088109",
+        "question": "Did Tom just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-08T00:33:19.088109",
+        "activity_end_date": "2010-02-07T23:41:19.088109",
+        "question": "Did Tom just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-08T00:25:19.088109",
+        "activity_end_date": "2010-02-07T23:41:19.088109",
+        "question": "Did Tom just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-08T04:20:19.088109",
+        "activity_end_date": "2010-02-07T23:41:19.088109",
+        "question": "Did Tom just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-08T06:01:19.088109",
+        "activity_end_date": "2010-02-07T23:41:19.088109",
+        "question": "Did Tom just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T16:37:33.097622",
+        "activity_end_date": "2009-10-22T09:00:33.097622",
+        "question": "Did Tom just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-22T17:19:33.097622",
+        "activity_end_date": "2009-10-22T09:00:33.097622",
+        "question": "Did Tom just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-22T18:19:33.097622",
+        "activity_end_date": "2009-10-22T09:00:33.097622",
+        "question": "Did Tom just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-22T16:16:33.097622",
+        "activity_end_date": "2009-10-22T09:00:33.097622",
+        "question": "Did Tom just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-22T16:01:33.097622",
+        "activity_end_date": "2009-10-22T09:00:33.097622",
+        "question": "Did Tom just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-22T02:36:27.007085",
+        "activity_end_date": "2009-10-22T01:10:27.007085",
+        "question": "Did Tom just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T03:27:27.007085",
+        "activity_end_date": "2009-10-22T01:10:27.007085",
+        "question": "Did Tom just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T02:15:27.007085",
+        "activity_end_date": "2009-10-22T01:10:27.007085",
+        "question": "Did Tom just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T02:51:27.007085",
+        "activity_end_date": "2009-10-22T01:10:27.007085",
+        "question": "Did Tom just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T01:40:27.007085",
+        "activity_end_date": "2009-10-22T01:10:27.007085",
+        "question": "Did Tom just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-06T04:46:35.069542",
+        "activity_end_date": "2009-12-06T00:15:35.069542",
+        "question": "Did Tom just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T03:04:35.069542",
+        "activity_end_date": "2009-12-06T00:15:35.069542",
+        "question": "Did Tom just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T03:18:35.069542",
+        "activity_end_date": "2009-12-06T00:15:35.069542",
+        "question": "Did Tom just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T04:46:35.069542",
+        "activity_end_date": "2009-12-06T00:15:35.069542",
+        "question": "Did Tom just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T04:13:35.069542",
+        "activity_end_date": "2009-12-06T00:15:35.069542",
+        "question": "Did Tom just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-08T05:09:06.046706",
+        "activity_end_date": "2009-10-08T00:03:06.046706",
+        "question": "Did Tom just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-08T01:28:06.046706",
+        "activity_end_date": "2009-10-08T00:03:06.046706",
+        "question": "Did Tom just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-08T01:32:06.046706",
+        "activity_end_date": "2009-10-08T00:03:06.046706",
+        "question": "Did Tom just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-08T00:59:06.046706",
+        "activity_end_date": "2009-10-08T00:03:06.046706",
+        "question": "Did Tom just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-08T01:51:06.046706",
+        "activity_end_date": "2009-10-08T00:03:06.046706",
+        "question": "Did Tom just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-07T08:32:47.059427",
+        "activity_end_date": "2010-02-07T00:29:47.059427",
+        "question": "Did Tom just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-07T09:39:47.059427",
+        "activity_end_date": "2010-02-07T00:29:47.059427",
+        "question": "Did Tom just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-07T08:49:47.059427",
+        "activity_end_date": "2010-02-07T00:29:47.059427",
+        "question": "Did Tom just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-07T07:48:47.059427",
+        "activity_end_date": "2010-02-07T00:29:47.059427",
+        "question": "Did Tom just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-07T07:53:47.059427",
+        "activity_end_date": "2010-02-07T00:29:47.059427",
+        "question": "Did Tom just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T04:53:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T01:57:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T01:25:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T05:42:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T00:13:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-30T09:19:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T07:18:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T08:18:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T09:05:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T07:34:25.098115",
+        "activity_end_date": "2009-08-30T00:05:25.098115",
+        "question": "Did Tom just clean the house?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2028-05-04T14:25:31.080393",
+        "activity_end_date": "2010-01-21T06:59:31.080393",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2027-08-09T09:18:31.080393",
+        "activity_end_date": "2010-01-21T06:59:31.080393",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2019-08-01T04:06:31.080393",
+        "activity_end_date": "2010-01-21T06:59:31.080393",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2011-02-02T06:28:31.080393",
+        "activity_end_date": "2010-01-21T06:59:31.080393",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2012-03-21T06:58:31.080393",
+        "activity_end_date": "2010-01-21T06:59:31.080393",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-27T00:50:50.044921",
+        "activity_end_date": "2009-08-24T07:07:50.044921",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-07T07:26:50.044921",
+        "activity_end_date": "2009-08-24T07:07:50.044921",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-24T16:11:50.044921",
+        "activity_end_date": "2009-08-24T07:07:50.044921",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-19T22:40:50.044921",
+        "activity_end_date": "2009-08-24T07:07:50.044921",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-23T11:19:50.044921",
+        "activity_end_date": "2009-08-24T07:07:50.044921",
+        "question": "Did Mary sleep a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2013-07-06T16:26:15.094238",
+        "activity_end_date": "2009-11-13T07:49:15.094238",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-16T08:25:15.094238",
+        "activity_end_date": "2009-11-13T07:49:15.094238",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2024-04-20T11:47:15.094238",
+        "activity_end_date": "2009-11-13T07:49:15.094238",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2026-09-14T20:56:15.094238",
+        "activity_end_date": "2009-11-13T07:49:15.094238",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2013-04-25T07:37:15.094238",
+        "activity_end_date": "2009-11-13T07:49:15.094238",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-04T09:11:43.063058",
+        "activity_end_date": "2009-08-24T07:10:43.063058",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-07T10:03:43.063058",
+        "activity_end_date": "2009-08-24T07:10:43.063058",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-29T09:21:43.063058",
+        "activity_end_date": "2009-08-24T07:10:43.063058",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-30T17:30:43.063058",
+        "activity_end_date": "2009-08-24T07:10:43.063058",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-28T20:11:43.063058",
+        "activity_end_date": "2009-08-24T07:10:43.063058",
+        "question": "Did Mary take care of personal hygiene a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2016-01-02T01:02:40.033338",
+        "activity_end_date": "2009-11-18T08:11:40.033338",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2018-12-04T08:10:40.033338",
+        "activity_end_date": "2009-11-18T08:11:40.033338",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2025-04-01T02:09:40.033338",
+        "activity_end_date": "2009-11-18T08:11:40.033338",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-02-18T17:01:40.033338",
+        "activity_end_date": "2009-11-18T08:11:40.033338",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-10-02T12:51:40.033338",
+        "activity_end_date": "2009-11-18T08:11:40.033338",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-24T16:00:53.087228",
+        "activity_end_date": "2009-08-24T07:53:53.087228",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-31T10:21:53.087228",
+        "activity_end_date": "2009-08-24T07:53:53.087228",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-05T11:51:53.087228",
+        "activity_end_date": "2009-08-24T07:53:53.087228",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-02T06:02:53.087228",
+        "activity_end_date": "2009-08-24T07:53:53.087228",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-02T03:45:53.087228",
+        "activity_end_date": "2009-08-24T07:53:53.087228",
+        "question": "Did Mary do meal preparation a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2025-07-22T16:12:28.094314",
+        "activity_end_date": "2009-10-08T07:37:28.094314",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2019-02-03T02:59:28.094314",
+        "activity_end_date": "2009-10-08T07:37:28.094314",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2023-10-17T03:41:28.094314",
+        "activity_end_date": "2009-10-08T07:37:28.094314",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-01-07T21:04:28.094314",
+        "activity_end_date": "2009-10-08T07:37:28.094314",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-11-17T12:56:28.094314",
+        "activity_end_date": "2009-10-08T07:37:28.094314",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-03T11:08:20.048546",
+        "activity_end_date": "2009-08-24T08:07:20.048546",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-25T02:51:20.048546",
+        "activity_end_date": "2009-08-24T08:07:20.048546",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-06T03:33:20.048546",
+        "activity_end_date": "2009-08-24T08:07:20.048546",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-29T13:12:20.048546",
+        "activity_end_date": "2009-08-24T08:07:20.048546",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-04T20:38:20.048546",
+        "activity_end_date": "2009-08-24T08:07:20.048546",
+        "question": "Did Mary eat a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2026-04-12T18:48:22.025311",
+        "activity_end_date": "2010-02-01T08:12:22.025311",
+        "question": "Did Mary work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2028-09-12T03:19:22.025311",
+        "activity_end_date": "2010-02-01T08:12:22.025311",
+        "question": "Did Mary work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2013-03-15T21:47:22.025311",
+        "activity_end_date": "2010-02-01T08:12:22.025311",
+        "question": "Did Mary work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2026-03-22T10:28:22.025311",
+        "activity_end_date": "2010-02-01T08:12:22.025311",
+        "question": "Did Mary work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2013-04-29T05:53:22.025311",
+        "activity_end_date": "2010-02-01T08:12:22.025311",
+        "question": "Did Mary work a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-08T08:28:57.029399",
+        "activity_end_date": "2009-08-24T08:31:57.029399",
+        "question": "Did Mary work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-21T21:14:57.029399",
+        "activity_end_date": "2009-08-24T08:31:57.029399",
+        "question": "Did Mary work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-02T05:51:57.029399",
+        "activity_end_date": "2009-08-24T08:31:57.029399",
+        "question": "Did Mary work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-26T00:31:57.029399",
+        "activity_end_date": "2009-08-24T08:31:57.029399",
+        "question": "Did Mary work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-01T09:17:57.029399",
+        "activity_end_date": "2009-08-24T08:31:57.029399",
+        "question": "Did Mary work a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2023-05-08T00:16:11.000622",
+        "activity_end_date": "2009-11-17T08:12:11.000622",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2021-08-03T06:07:11.000622",
+        "activity_end_date": "2009-11-17T08:12:11.000622",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2022-04-11T16:04:11.000622",
+        "activity_end_date": "2009-11-17T08:12:11.000622",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2024-07-24T19:52:11.000622",
+        "activity_end_date": "2009-11-17T08:12:11.000622",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2017-08-24T05:45:11.000622",
+        "activity_end_date": "2009-11-17T08:12:11.000622",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-06T14:07:01.093065",
+        "activity_end_date": "2009-08-24T08:49:01.093065",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-05T11:56:01.093065",
+        "activity_end_date": "2009-08-24T08:49:01.093065",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-27T05:38:01.093065",
+        "activity_end_date": "2009-08-24T08:49:01.093065",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-16T05:14:01.093065",
+        "activity_end_date": "2009-08-24T08:49:01.093065",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-20T11:37:01.093065",
+        "activity_end_date": "2009-08-24T08:49:01.093065",
+        "question": "Did Mary take a bath a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2011-12-04T15:38:24.086725",
+        "activity_end_date": "2010-01-26T07:25:24.086725",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2023-03-20T05:18:24.086725",
+        "activity_end_date": "2010-01-26T07:25:24.086725",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2021-01-20T05:22:24.086725",
+        "activity_end_date": "2010-01-26T07:25:24.086725",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2019-04-17T10:07:24.086725",
+        "activity_end_date": "2010-01-26T07:25:24.086725",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2026-10-31T20:03:24.086725",
+        "activity_end_date": "2010-01-26T07:25:24.086725",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-02T00:27:42.083995",
+        "activity_end_date": "2009-08-24T23:29:42.083995",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-08T06:01:42.083995",
+        "activity_end_date": "2009-08-24T23:29:42.083995",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-14T11:40:42.083995",
+        "activity_end_date": "2009-08-24T23:29:42.083995",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-08T12:50:42.083995",
+        "activity_end_date": "2009-08-24T23:29:42.083995",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-26T16:58:42.083995",
+        "activity_end_date": "2009-08-24T23:29:42.083995",
+        "question": "Did Mary return home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2022-03-11T10:33:48.065262",
+        "activity_end_date": "2009-09-01T07:45:48.065262",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2028-03-02T23:35:48.065262",
+        "activity_end_date": "2009-09-01T07:45:48.065262",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2017-04-26T11:10:48.065262",
+        "activity_end_date": "2009-09-01T07:45:48.065262",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-11-05T19:05:48.065262",
+        "activity_end_date": "2009-09-01T07:45:48.065262",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2026-10-28T13:03:48.065262",
+        "activity_end_date": "2009-09-01T07:45:48.065262",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-31T19:23:44.070526",
+        "activity_end_date": "2009-08-26T08:58:44.070526",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-19T18:40:44.070526",
+        "activity_end_date": "2009-08-26T08:58:44.070526",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-13T10:24:44.070526",
+        "activity_end_date": "2009-08-26T08:58:44.070526",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-29T12:43:44.070526",
+        "activity_end_date": "2009-08-26T08:58:44.070526",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-30T05:30:44.070526",
+        "activity_end_date": "2009-08-26T08:58:44.070526",
+        "question": "Did Mary watch TV a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2013-07-01T13:35:26.064768",
+        "activity_end_date": "2009-09-12T03:38:26.064768",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2017-11-02T11:54:26.064768",
+        "activity_end_date": "2009-09-12T03:38:26.064768",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2020-04-11T13:08:26.064768",
+        "activity_end_date": "2009-09-12T03:38:26.064768",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2026-06-05T21:09:26.064768",
+        "activity_end_date": "2009-09-12T03:38:26.064768",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2011-12-07T21:29:26.064768",
+        "activity_end_date": "2009-09-12T03:38:26.064768",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-18T04:38:51.097029",
+        "activity_end_date": "2009-08-29T03:15:51.097029",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-23T22:07:51.097029",
+        "activity_end_date": "2009-08-29T03:15:51.097029",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-11T13:55:51.097029",
+        "activity_end_date": "2009-08-29T03:15:51.097029",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-22T19:33:51.097029",
+        "activity_end_date": "2009-08-29T03:15:51.097029",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-25T02:12:51.097029",
+        "activity_end_date": "2009-08-29T03:15:51.097029",
+        "question": "Did Mary go to the toilet a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2020-10-04T23:24:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2015-12-27T04:54:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2025-04-28T00:17:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2019-08-13T22:59:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2011-05-24T14:18:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-06-03T12:42:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-27T21:09:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-21T03:19:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-06-08T14:31:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-03T12:28:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home a long time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-03-24T21:42:26.027687",
+        "activity_end_date": "2010-03-08T06:43:26.027687",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-20T01:42:26.027687",
+        "activity_end_date": "2010-03-08T06:43:26.027687",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-21T16:11:26.027687",
+        "activity_end_date": "2010-03-08T06:43:26.027687",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-30T15:46:26.027687",
+        "activity_end_date": "2010-03-08T06:43:26.027687",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-24T06:43:26.027687",
+        "activity_end_date": "2010-03-08T06:43:26.027687",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-07T12:57:57.018857",
+        "activity_end_date": "2009-12-09T07:33:57.018857",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T11:54:57.018857",
+        "activity_end_date": "2009-12-09T07:33:57.018857",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T11:26:57.018857",
+        "activity_end_date": "2009-12-09T07:33:57.018857",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T12:01:57.018857",
+        "activity_end_date": "2009-12-09T07:33:57.018857",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T12:45:57.018857",
+        "activity_end_date": "2009-12-09T07:33:57.018857",
+        "question": "Did Mary sleep some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-30T18:41:18.043283",
+        "activity_end_date": "2009-10-21T08:04:18.043283",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-28T12:39:18.043283",
+        "activity_end_date": "2009-10-21T08:04:18.043283",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-25T16:51:18.043283",
+        "activity_end_date": "2009-10-21T08:04:18.043283",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-26T16:19:18.043283",
+        "activity_end_date": "2009-10-21T08:04:18.043283",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-28T03:01:18.043283",
+        "activity_end_date": "2009-10-21T08:04:18.043283",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-19T07:02:37.017475",
+        "activity_end_date": "2009-12-09T08:22:37.017475",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-19T06:50:37.017475",
+        "activity_end_date": "2009-12-09T08:22:37.017475",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-19T07:55:37.017475",
+        "activity_end_date": "2009-12-09T08:22:37.017475",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-19T07:59:37.017475",
+        "activity_end_date": "2009-12-09T08:22:37.017475",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-19T08:23:37.017475",
+        "activity_end_date": "2009-12-09T08:22:37.017475",
+        "question": "Did Mary take care of personal hygiene some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-22T19:51:17.086021",
+        "activity_end_date": "2010-04-16T08:18:17.086021",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-21T11:09:17.086021",
+        "activity_end_date": "2010-04-16T08:18:17.086021",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-22T01:57:17.086021",
+        "activity_end_date": "2010-04-16T08:18:17.086021",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-23T15:53:17.086021",
+        "activity_end_date": "2010-04-16T08:18:17.086021",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-22T13:34:17.086021",
+        "activity_end_date": "2010-04-16T08:18:17.086021",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-18T07:54:22.070907",
+        "activity_end_date": "2009-12-08T08:47:22.070907",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T09:23:22.070907",
+        "activity_end_date": "2009-12-08T08:47:22.070907",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T07:25:22.070907",
+        "activity_end_date": "2009-12-08T08:47:22.070907",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T08:03:22.070907",
+        "activity_end_date": "2009-12-08T08:47:22.070907",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T07:33:22.070907",
+        "activity_end_date": "2009-12-08T08:47:22.070907",
+        "question": "Did Mary do meal preparation some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-12T13:25:30.082328",
+        "activity_end_date": "2009-11-05T08:44:30.082328",
+        "question": "Did Mary eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-14T14:19:30.082328",
+        "activity_end_date": "2009-11-05T08:44:30.082328",
+        "question": "Did Mary eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-11T01:35:30.082328",
+        "activity_end_date": "2009-11-05T08:44:30.082328",
+        "question": "Did Mary eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-12T07:46:30.082328",
+        "activity_end_date": "2009-11-05T08:44:30.082328",
+        "question": "Did Mary eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-09T17:54:30.082328",
+        "activity_end_date": "2009-11-05T08:44:30.082328",
+        "question": "Did Mary eat some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-18T07:37:04.041783",
+        "activity_end_date": "2009-12-08T08:24:04.041783",
+        "question": "Did Mary eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T08:32:04.041783",
+        "activity_end_date": "2009-12-08T08:24:04.041783",
+        "question": "Did Mary eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T08:56:04.041783",
+        "activity_end_date": "2009-12-08T08:24:04.041783",
+        "question": "Did Mary eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T07:04:04.041783",
+        "activity_end_date": "2009-12-08T08:24:04.041783",
+        "question": "Did Mary eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-18T07:14:04.041783",
+        "activity_end_date": "2009-12-08T08:24:04.041783",
+        "question": "Did Mary eat some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-17T06:49:03.029911",
+        "activity_end_date": "2010-01-29T08:26:03.029911",
+        "question": "Did Mary work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-20T00:03:03.029911",
+        "activity_end_date": "2010-01-29T08:26:03.029911",
+        "question": "Did Mary work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-11T23:19:03.029911",
+        "activity_end_date": "2010-01-29T08:26:03.029911",
+        "question": "Did Mary work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-18T12:21:03.029911",
+        "activity_end_date": "2010-01-29T08:26:03.029911",
+        "question": "Did Mary work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-22T13:26:03.029911",
+        "activity_end_date": "2010-01-29T08:26:03.029911",
+        "question": "Did Mary work some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-06T12:51:58.052906",
+        "activity_end_date": "2009-12-08T08:59:58.052906",
+        "question": "Did Mary work some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-06T14:38:58.052906",
+        "activity_end_date": "2009-12-08T08:59:58.052906",
+        "question": "Did Mary work some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-06T13:57:58.052906",
+        "activity_end_date": "2009-12-08T08:59:58.052906",
+        "question": "Did Mary work some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-06T12:19:58.052906",
+        "activity_end_date": "2009-12-08T08:59:58.052906",
+        "question": "Did Mary work some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-06T13:39:58.052906",
+        "activity_end_date": "2009-12-08T08:59:58.052906",
+        "question": "Did Mary work some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-18T04:35:14.051439",
+        "activity_end_date": "2010-02-11T08:01:14.051439",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-18T11:33:14.051439",
+        "activity_end_date": "2010-02-11T08:01:14.051439",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-16T22:46:14.051439",
+        "activity_end_date": "2010-02-11T08:01:14.051439",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-18T03:56:14.051439",
+        "activity_end_date": "2010-02-11T08:01:14.051439",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-16T02:12:14.051439",
+        "activity_end_date": "2010-02-11T08:01:14.051439",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-30T06:37:34.007831",
+        "activity_end_date": "2009-11-20T08:19:34.007831",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-30T06:48:34.007831",
+        "activity_end_date": "2009-11-20T08:19:34.007831",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-30T08:48:34.007831",
+        "activity_end_date": "2009-11-20T08:19:34.007831",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-30T07:58:34.007831",
+        "activity_end_date": "2009-11-20T08:19:34.007831",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-30T07:04:34.007831",
+        "activity_end_date": "2009-11-20T08:19:34.007831",
+        "question": "Did Mary take a bath some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-03-13T20:16:30.031332",
+        "activity_end_date": "2010-02-20T00:54:30.031332",
+        "question": "Did Mary return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-17T06:54:30.031332",
+        "activity_end_date": "2010-02-20T00:54:30.031332",
+        "question": "Did Mary return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-07T07:03:30.031332",
+        "activity_end_date": "2010-02-20T00:54:30.031332",
+        "question": "Did Mary return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-13T05:52:30.031332",
+        "activity_end_date": "2010-02-20T00:54:30.031332",
+        "question": "Did Mary return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-14T04:17:30.031332",
+        "activity_end_date": "2010-02-20T00:54:30.031332",
+        "question": "Did Mary return home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-07T04:11:28.053209",
+        "activity_end_date": "2009-12-09T00:40:28.053209",
+        "question": "Did Mary return home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T06:27:28.053209",
+        "activity_end_date": "2009-12-09T00:40:28.053209",
+        "question": "Did Mary return home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T05:05:28.053209",
+        "activity_end_date": "2009-12-09T00:40:28.053209",
+        "question": "Did Mary return home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T04:41:28.053209",
+        "activity_end_date": "2009-12-09T00:40:28.053209",
+        "question": "Did Mary return home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-07T04:31:28.053209",
+        "activity_end_date": "2009-12-09T00:40:28.053209",
+        "question": "Did Mary return home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-05T23:36:44.006127",
+        "activity_end_date": "2009-11-15T00:11:44.006127",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-26T23:24:44.006127",
+        "activity_end_date": "2009-11-15T00:11:44.006127",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-29T14:53:44.006127",
+        "activity_end_date": "2009-11-15T00:11:44.006127",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-30T01:49:44.006127",
+        "activity_end_date": "2009-11-15T00:11:44.006127",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-07T21:06:44.006127",
+        "activity_end_date": "2009-11-15T00:11:44.006127",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-02T03:23:57.053539",
+        "activity_end_date": "2009-12-03T23:55:57.053539",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T03:36:57.053539",
+        "activity_end_date": "2009-12-03T23:55:57.053539",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T05:08:57.053539",
+        "activity_end_date": "2009-12-03T23:55:57.053539",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T04:26:57.053539",
+        "activity_end_date": "2009-12-03T23:55:57.053539",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-02T05:38:57.053539",
+        "activity_end_date": "2009-12-03T23:55:57.053539",
+        "question": "Did Mary watch TV some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-23T23:56:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-18T23:27:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-18T20:55:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-18T16:15:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-18T03:53:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-16T01:11:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-16T00:50:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-16T00:53:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-16T00:59:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-16T00:08:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-05T00:17:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-05-05T23:29:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-05-05T18:07:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-05-06T14:28:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-05-09T13:56:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-05-10T06:45:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-10T08:43:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-10T07:03:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-10T06:23:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-05-10T08:03:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home some time ago?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-16T18:33:50.031374",
+        "activity_end_date": "2009-09-16T07:49:50.031374",
+        "question": "Did Mary sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-16T10:55:50.031374",
+        "activity_end_date": "2009-09-16T07:49:50.031374",
+        "question": "Did Mary sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-17T03:57:50.031374",
+        "activity_end_date": "2009-09-16T07:49:50.031374",
+        "question": "Did Mary sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-17T07:00:50.031374",
+        "activity_end_date": "2009-09-16T07:49:50.031374",
+        "question": "Did Mary sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-16T14:43:50.031374",
+        "activity_end_date": "2009-09-16T07:49:50.031374",
+        "question": "Did Mary sleep recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-08T10:47:46.007311",
+        "activity_end_date": "2009-12-07T08:33:46.007311",
+        "question": "Did Mary sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T10:34:46.007311",
+        "activity_end_date": "2009-12-07T08:33:46.007311",
+        "question": "Did Mary sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T09:50:46.007311",
+        "activity_end_date": "2009-12-07T08:33:46.007311",
+        "question": "Did Mary sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T10:08:46.007311",
+        "activity_end_date": "2009-12-07T08:33:46.007311",
+        "question": "Did Mary sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T11:18:46.007311",
+        "activity_end_date": "2009-12-07T08:33:46.007311",
+        "question": "Did Mary sleep recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-02T03:59:38.075879",
+        "activity_end_date": "2009-12-01T23:15:38.075879",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-02T02:04:38.075879",
+        "activity_end_date": "2009-12-01T23:15:38.075879",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-02T04:48:38.075879",
+        "activity_end_date": "2009-12-01T23:15:38.075879",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-02T00:58:38.075879",
+        "activity_end_date": "2009-12-01T23:15:38.075879",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-02T04:24:38.075879",
+        "activity_end_date": "2009-12-01T23:15:38.075879",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-02T18:34:19.055893",
+        "activity_end_date": "2010-04-02T07:59:19.055893",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T17:17:19.055893",
+        "activity_end_date": "2010-04-02T07:59:19.055893",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T17:08:19.055893",
+        "activity_end_date": "2010-04-02T07:59:19.055893",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T16:49:19.055893",
+        "activity_end_date": "2010-04-02T07:59:19.055893",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-02T16:25:19.055893",
+        "activity_end_date": "2010-04-02T07:59:19.055893",
+        "question": "Did Mary take care of personal hygiene recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-04T03:14:43.043188",
+        "activity_end_date": "2009-10-04T01:27:43.043188",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-04T01:38:43.043188",
+        "activity_end_date": "2009-10-04T01:27:43.043188",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-04T04:56:43.043188",
+        "activity_end_date": "2009-10-04T01:27:43.043188",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-04T03:46:43.043188",
+        "activity_end_date": "2009-10-04T01:27:43.043188",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-04T08:17:43.043188",
+        "activity_end_date": "2009-10-04T01:27:43.043188",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-04T17:44:41.006852",
+        "activity_end_date": "2009-12-04T08:39:41.006852",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-04T17:08:41.006852",
+        "activity_end_date": "2009-12-04T08:39:41.006852",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-04T18:56:41.006852",
+        "activity_end_date": "2009-12-04T08:39:41.006852",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-04T17:18:41.006852",
+        "activity_end_date": "2009-12-04T08:39:41.006852",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-04T17:59:41.006852",
+        "activity_end_date": "2009-12-04T08:39:41.006852",
+        "question": "Did Mary do meal preparation recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-03T12:24:06.055545",
+        "activity_end_date": "2009-12-03T08:20:06.055545",
+        "question": "Did Mary eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-03T14:59:06.055545",
+        "activity_end_date": "2009-12-03T08:20:06.055545",
+        "question": "Did Mary eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-03T11:05:06.055545",
+        "activity_end_date": "2009-12-03T08:20:06.055545",
+        "question": "Did Mary eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-03T11:37:06.055545",
+        "activity_end_date": "2009-12-03T08:20:06.055545",
+        "question": "Did Mary eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-03T11:50:06.055545",
+        "activity_end_date": "2009-12-03T08:20:06.055545",
+        "question": "Did Mary eat recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-10T17:02:49.011261",
+        "activity_end_date": "2009-09-10T08:03:49.011261",
+        "question": "Did Mary eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-10T16:30:49.011261",
+        "activity_end_date": "2009-09-10T08:03:49.011261",
+        "question": "Did Mary eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-10T17:08:49.011261",
+        "activity_end_date": "2009-09-10T08:03:49.011261",
+        "question": "Did Mary eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-10T18:24:49.011261",
+        "activity_end_date": "2009-09-10T08:03:49.011261",
+        "question": "Did Mary eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-10T16:30:49.011261",
+        "activity_end_date": "2009-09-10T08:03:49.011261",
+        "question": "Did Mary eat recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-10T04:51:50.007099",
+        "activity_end_date": "2009-11-10T01:37:50.007099",
+        "question": "Did Mary work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-10T02:19:50.007099",
+        "activity_end_date": "2009-11-10T01:37:50.007099",
+        "question": "Did Mary work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-10T21:37:50.007099",
+        "activity_end_date": "2009-11-10T01:37:50.007099",
+        "question": "Did Mary work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-10T19:47:50.007099",
+        "activity_end_date": "2009-11-10T01:37:50.007099",
+        "question": "Did Mary work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-10T03:19:50.007099",
+        "activity_end_date": "2009-11-10T01:37:50.007099",
+        "question": "Did Mary work recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-02T02:01:21.072151",
+        "activity_end_date": "2009-09-30T23:46:21.072151",
+        "question": "Did Mary work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-02T01:37:21.072151",
+        "activity_end_date": "2009-09-30T23:46:21.072151",
+        "question": "Did Mary work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-02T01:08:21.072151",
+        "activity_end_date": "2009-09-30T23:46:21.072151",
+        "question": "Did Mary work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-02T00:59:21.072151",
+        "activity_end_date": "2009-09-30T23:46:21.072151",
+        "question": "Did Mary work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-02T00:48:21.072151",
+        "activity_end_date": "2009-09-30T23:46:21.072151",
+        "question": "Did Mary work recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-07T12:10:38.055497",
+        "activity_end_date": "2009-10-07T07:39:38.055497",
+        "question": "Did Mary take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-07T15:22:38.055497",
+        "activity_end_date": "2009-10-07T07:39:38.055497",
+        "question": "Did Mary take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-07T08:54:38.055497",
+        "activity_end_date": "2009-10-07T07:39:38.055497",
+        "question": "Did Mary take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-07T09:39:38.055497",
+        "activity_end_date": "2009-10-07T07:39:38.055497",
+        "question": "Did Mary take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-07T11:54:38.055497",
+        "activity_end_date": "2009-10-07T07:39:38.055497",
+        "question": "Did Mary take a bath recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-24T17:31:34.049918",
+        "activity_end_date": "2009-09-24T07:43:34.049918",
+        "question": "Did Mary take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-24T18:27:34.049918",
+        "activity_end_date": "2009-09-24T07:43:34.049918",
+        "question": "Did Mary take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-24T16:42:34.049918",
+        "activity_end_date": "2009-09-24T07:43:34.049918",
+        "question": "Did Mary take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-24T18:03:34.049918",
+        "activity_end_date": "2009-09-24T07:43:34.049918",
+        "question": "Did Mary take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-24T16:33:34.049918",
+        "activity_end_date": "2009-09-24T07:43:34.049918",
+        "question": "Did Mary take a bath recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-25T09:12:40.073037",
+        "activity_end_date": "2010-01-24T23:26:40.073037",
+        "question": "Did Mary return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-25T02:03:40.073037",
+        "activity_end_date": "2010-01-24T23:26:40.073037",
+        "question": "Did Mary return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-25T17:59:40.073037",
+        "activity_end_date": "2010-01-24T23:26:40.073037",
+        "question": "Did Mary return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-25T22:58:40.073037",
+        "activity_end_date": "2010-01-24T23:26:40.073037",
+        "question": "Did Mary return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-25T02:29:40.073037",
+        "activity_end_date": "2010-01-24T23:26:40.073037",
+        "question": "Did Mary return home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-03-22T02:14:53.057548",
+        "activity_end_date": "2010-03-20T23:38:53.057548",
+        "question": "Did Mary return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-03-22T01:37:53.057548",
+        "activity_end_date": "2010-03-20T23:38:53.057548",
+        "question": "Did Mary return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-03-22T02:18:53.057548",
+        "activity_end_date": "2010-03-20T23:38:53.057548",
+        "question": "Did Mary return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-03-22T02:16:53.057548",
+        "activity_end_date": "2010-03-20T23:38:53.057548",
+        "question": "Did Mary return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-03-22T02:05:53.057548",
+        "activity_end_date": "2010-03-20T23:38:53.057548",
+        "question": "Did Mary return home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-12T18:48:32.018999",
+        "activity_end_date": "2010-04-12T07:21:32.018999",
+        "question": "Did Mary watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-12T11:07:32.018999",
+        "activity_end_date": "2010-04-12T07:21:32.018999",
+        "question": "Did Mary watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-13T05:25:32.018999",
+        "activity_end_date": "2010-04-12T07:21:32.018999",
+        "question": "Did Mary watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-12T19:10:32.018999",
+        "activity_end_date": "2010-04-12T07:21:32.018999",
+        "question": "Did Mary watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-12T22:24:32.018999",
+        "activity_end_date": "2010-04-12T07:21:32.018999",
+        "question": "Did Mary watch TV recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-23T03:17:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-23T04:54:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-23T03:34:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-23T03:40:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-23T02:48:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary watch TV recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-23T01:36:18.041925",
+        "activity_end_date": "2009-09-23T00:04:18.041925",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-23T07:08:18.041925",
+        "activity_end_date": "2009-09-23T00:04:18.041925",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-23T05:20:18.041925",
+        "activity_end_date": "2009-09-23T00:04:18.041925",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-23T07:14:18.041925",
+        "activity_end_date": "2009-09-23T00:04:18.041925",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-23T07:38:18.041925",
+        "activity_end_date": "2009-09-23T00:04:18.041925",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-06T10:38:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T10:24:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T10:35:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T09:17:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-06T10:08:13.009553",
+        "activity_end_date": "2009-12-06T00:32:13.009553",
+        "question": "Did Mary go to the toilet recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T10:53:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T15:23:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T12:34:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T09:13:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T12:07:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T16:37:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T18:23:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T16:42:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T16:29:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T16:44:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary leave the home recently?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-29T11:26:35.003747",
+        "activity_end_date": "2009-09-29T06:58:35.003747",
+        "question": "Did Mary just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-29T08:50:35.003747",
+        "activity_end_date": "2009-09-29T06:58:35.003747",
+        "question": "Did Mary just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-29T07:22:35.003747",
+        "activity_end_date": "2009-09-29T06:58:35.003747",
+        "question": "Did Mary just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-29T08:55:35.003747",
+        "activity_end_date": "2009-09-29T06:58:35.003747",
+        "question": "Did Mary just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-29T10:57:35.003747",
+        "activity_end_date": "2009-09-29T06:58:35.003747",
+        "question": "Did Mary just sleep?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-06T15:54:20.039674",
+        "activity_end_date": "2010-04-06T08:43:20.039674",
+        "question": "Did Mary just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-06T17:37:20.039674",
+        "activity_end_date": "2010-04-06T08:43:20.039674",
+        "question": "Did Mary just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-06T16:58:20.039674",
+        "activity_end_date": "2010-04-06T08:43:20.039674",
+        "question": "Did Mary just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-06T16:19:20.039674",
+        "activity_end_date": "2010-04-06T08:43:20.039674",
+        "question": "Did Mary just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-06T15:50:20.039674",
+        "activity_end_date": "2010-04-06T08:43:20.039674",
+        "question": "Did Mary just sleep?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-30T08:30:39.007669",
+        "activity_end_date": "2009-09-30T08:18:39.007669",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-30T10:27:39.007669",
+        "activity_end_date": "2009-09-30T08:18:39.007669",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-30T09:20:39.007669",
+        "activity_end_date": "2009-09-30T08:18:39.007669",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-30T09:26:39.007669",
+        "activity_end_date": "2009-09-30T08:18:39.007669",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-30T08:34:39.007669",
+        "activity_end_date": "2009-09-30T08:18:39.007669",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-19T12:04:02.030767",
+        "activity_end_date": "2010-02-19T08:21:02.030767",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T12:26:02.030767",
+        "activity_end_date": "2010-02-19T08:21:02.030767",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T12:45:02.030767",
+        "activity_end_date": "2010-02-19T08:21:02.030767",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T12:49:02.030767",
+        "activity_end_date": "2010-02-19T08:21:02.030767",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-19T12:33:02.030767",
+        "activity_end_date": "2010-02-19T08:21:02.030767",
+        "question": "Did Mary just take care of personal hygiene?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-30T10:10:28.009378",
+        "activity_end_date": "2010-01-30T08:47:28.009378",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-30T09:34:28.009378",
+        "activity_end_date": "2010-01-30T08:47:28.009378",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-30T10:58:28.009378",
+        "activity_end_date": "2010-01-30T08:47:28.009378",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-30T09:15:28.009378",
+        "activity_end_date": "2010-01-30T08:47:28.009378",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-30T09:03:28.009378",
+        "activity_end_date": "2010-01-30T08:47:28.009378",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-08-25T10:36:05.010403",
+        "activity_end_date": "2009-08-25T07:25:05.010403",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-25T12:00:05.010403",
+        "activity_end_date": "2009-08-25T07:25:05.010403",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-25T09:49:05.010403",
+        "activity_end_date": "2009-08-25T07:25:05.010403",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-25T11:52:05.010403",
+        "activity_end_date": "2009-08-25T07:25:05.010403",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-08-25T10:58:05.010403",
+        "activity_end_date": "2009-08-25T07:25:05.010403",
+        "question": "Did Mary just do meal preparation?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-02T10:49:25.090853",
+        "activity_end_date": "2009-09-02T08:46:25.090853",
+        "question": "Did Mary just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T09:20:25.090853",
+        "activity_end_date": "2009-09-02T08:46:25.090853",
+        "question": "Did Mary just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T09:35:25.090853",
+        "activity_end_date": "2009-09-02T08:46:25.090853",
+        "question": "Did Mary just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T10:49:25.090853",
+        "activity_end_date": "2009-09-02T08:46:25.090853",
+        "question": "Did Mary just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T10:32:25.090853",
+        "activity_end_date": "2009-09-02T08:46:25.090853",
+        "question": "Did Mary just eat?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-04T12:49:49.021774",
+        "activity_end_date": "2009-11-04T08:14:49.021774",
+        "question": "Did Mary just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-04T10:41:49.021774",
+        "activity_end_date": "2009-11-04T08:14:49.021774",
+        "question": "Did Mary just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-04T12:55:49.021774",
+        "activity_end_date": "2009-11-04T08:14:49.021774",
+        "question": "Did Mary just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-04T11:05:49.021774",
+        "activity_end_date": "2009-11-04T08:14:49.021774",
+        "question": "Did Mary just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-04T12:43:49.021774",
+        "activity_end_date": "2009-11-04T08:14:49.021774",
+        "question": "Did Mary just eat?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-01-12T23:46:31.041839",
+        "activity_end_date": "2010-01-12T23:33:31.041839",
+        "question": "Did Mary just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-13T02:17:31.041839",
+        "activity_end_date": "2010-01-12T23:33:31.041839",
+        "question": "Did Mary just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-13T03:26:31.041839",
+        "activity_end_date": "2010-01-12T23:33:31.041839",
+        "question": "Did Mary just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-13T03:16:31.041839",
+        "activity_end_date": "2010-01-12T23:33:31.041839",
+        "question": "Did Mary just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-01-13T02:34:31.041839",
+        "activity_end_date": "2010-01-12T23:33:31.041839",
+        "question": "Did Mary just work?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-17T09:26:40.006179",
+        "activity_end_date": "2010-02-17T00:34:40.006179",
+        "question": "Did Mary just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-17T07:30:40.006179",
+        "activity_end_date": "2010-02-17T00:34:40.006179",
+        "question": "Did Mary just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-17T08:53:40.006179",
+        "activity_end_date": "2010-02-17T00:34:40.006179",
+        "question": "Did Mary just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-17T09:41:40.006179",
+        "activity_end_date": "2010-02-17T00:34:40.006179",
+        "question": "Did Mary just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-17T07:46:40.006179",
+        "activity_end_date": "2010-02-17T00:34:40.006179",
+        "question": "Did Mary just work?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-16T09:18:59.012605",
+        "activity_end_date": "2009-10-16T07:48:59.012605",
+        "question": "Did Mary just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-16T09:51:59.012605",
+        "activity_end_date": "2009-10-16T07:48:59.012605",
+        "question": "Did Mary just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-16T08:43:59.012605",
+        "activity_end_date": "2009-10-16T07:48:59.012605",
+        "question": "Did Mary just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-16T09:03:59.012605",
+        "activity_end_date": "2009-10-16T07:48:59.012605",
+        "question": "Did Mary just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-16T09:21:59.012605",
+        "activity_end_date": "2009-10-16T07:48:59.012605",
+        "question": "Did Mary just take a bath?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-01T10:25:43.044803",
+        "activity_end_date": "2009-12-01T07:49:43.044803",
+        "question": "Did Mary just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-01T10:43:43.044803",
+        "activity_end_date": "2009-12-01T07:49:43.044803",
+        "question": "Did Mary just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-01T10:25:43.044803",
+        "activity_end_date": "2009-12-01T07:49:43.044803",
+        "question": "Did Mary just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-01T12:35:43.044803",
+        "activity_end_date": "2009-12-01T07:49:43.044803",
+        "question": "Did Mary just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-01T11:40:43.044803",
+        "activity_end_date": "2009-12-01T07:49:43.044803",
+        "question": "Did Mary just take a bath?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-02-24T02:09:45.026487",
+        "activity_end_date": "2010-02-23T23:43:45.026487",
+        "question": "Did Mary just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T02:16:45.026487",
+        "activity_end_date": "2010-02-23T23:43:45.026487",
+        "question": "Did Mary just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T01:13:45.026487",
+        "activity_end_date": "2010-02-23T23:43:45.026487",
+        "question": "Did Mary just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T00:13:45.026487",
+        "activity_end_date": "2010-02-23T23:43:45.026487",
+        "question": "Did Mary just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-02-24T02:48:45.026487",
+        "activity_end_date": "2010-02-23T23:43:45.026487",
+        "question": "Did Mary just return home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-12-08T14:38:14.027834",
+        "activity_end_date": "2009-12-08T07:14:14.027834",
+        "question": "Did Mary just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T14:43:14.027834",
+        "activity_end_date": "2009-12-08T07:14:14.027834",
+        "question": "Did Mary just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T14:19:14.027834",
+        "activity_end_date": "2009-12-08T07:14:14.027834",
+        "question": "Did Mary just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T14:41:14.027834",
+        "activity_end_date": "2009-12-08T07:14:14.027834",
+        "question": "Did Mary just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-12-08T16:00:14.027834",
+        "activity_end_date": "2009-12-08T07:14:14.027834",
+        "question": "Did Mary just return home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-10-22T06:51:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T04:30:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T02:22:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T06:31:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-10-22T04:17:27.024562",
+        "activity_end_date": "2009-10-22T02:12:27.024562",
+        "question": "Did Mary just watch TV?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-23T16:09:58.030701",
+        "activity_end_date": "2009-09-23T08:39:58.030701",
+        "question": "Did Mary just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-23T17:23:58.030701",
+        "activity_end_date": "2009-09-23T08:39:58.030701",
+        "question": "Did Mary just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-23T17:23:58.030701",
+        "activity_end_date": "2009-09-23T08:39:58.030701",
+        "question": "Did Mary just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-23T15:38:58.030701",
+        "activity_end_date": "2009-09-23T08:39:58.030701",
+        "question": "Did Mary just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-23T16:21:58.030701",
+        "activity_end_date": "2009-09-23T08:39:58.030701",
+        "question": "Did Mary just watch TV?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-09-02T04:00:10.057396",
+        "activity_end_date": "2009-09-02T03:27:10.057396",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T05:21:10.057396",
+        "activity_end_date": "2009-09-02T03:27:10.057396",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T03:28:10.057396",
+        "activity_end_date": "2009-09-02T03:27:10.057396",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T05:41:10.057396",
+        "activity_end_date": "2009-09-02T03:27:10.057396",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-09-02T05:32:10.057396",
+        "activity_end_date": "2009-09-02T03:27:10.057396",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2009-11-14T08:54:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-14T07:58:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-14T08:11:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-14T07:41:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2009-11-14T07:41:39.017334",
+        "activity_end_date": "2009-11-14T04:55:39.017334",
+        "question": "Did Mary just go to the toilet?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T10:26:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T09:17:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T08:42:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T09:33:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T10:23:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "Yes"
+    },
+    {
+        "ref_date": "2010-04-30T11:53:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T12:28:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T11:44:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T11:36:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "No"
+    },
+    {
+        "ref_date": "2010-04-30T12:23:13.035271",
+        "activity_end_date": "2010-04-30T08:07:13.035271",
+        "question": "Did Mary just leave the home?",
+        "gt": "No"
+    }
+]
