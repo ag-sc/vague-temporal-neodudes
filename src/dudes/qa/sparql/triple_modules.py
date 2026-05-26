@@ -288,19 +288,22 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
     def _query_text(self, event):
         return self._readable_event_type(event) if ":" in event else event.replace("_", " ")
 
-    def resolve_event_type_embedding(self, event):
+    def resolve_event_type_embedding(self, event, min_similarity= 0.6):
         records, matrix = self._kgqa_event_type_index
         encoder = self._embedding_model
         query = encoder.encode([self._query_text(event)], normalize_embeddings=True)[0]
         scores = matrix @ np.asarray(query)
 
         best = int(np.argmax(scores))
-        best_record = records[best]
+        best_score = float(scores[best])
+        if best_score < min_similarity:
+            return None
 
+        best_record = records[best]
         return {
             "clean_event_type": best_record["event_type"],
             "label": best_record.get("label") or self._readable_event_type(best_record["event_type"]),
-            "score": float(scores[best]),
+            "score": best_score,
         }
 
     def _predict_event_std_embedding(self, event, use_clean_event_type=True):
@@ -336,42 +339,6 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
         lower = max(0, self._safe_round(lower_raw))
         return upper, lower
 
-    def predict_kgqa_interval_embedding(self,
-                                        event,
-                                        adverbial,
-                                        min_prob=0.6):
-        resolved = self.resolve_event_type_embedding(event)
-        event_std = self._predict_event_std_embedding(
-            resolved["label"],
-            use_clean_event_type=False,
-        )
-        upper, lower = self.predict_time_frame_embedding(
-            resolved["label"],
-            adverbial,
-            min_prob=min_prob,
-            use_clean_event_type=False,
-        )
-
-        return {
-            "input_event": event,
-            "clean_event_type": resolved["clean_event_type"],
-            "event_type_label": resolved["label"],
-            "event_type_score": resolved["score"],
-            "adverbial": adverbial,
-            "min_prob": min_prob,
-            "event_std": event_std,
-            "interval": {
-                "upper_minutes_ago": upper,
-                "lower_minutes_ago": lower,
-            },
-        }
-
-    def event_type(self, event):
-        event = event.lower().strip().replace("_", " ")
-        return self.resolve_event_type_embedding(
-            event,
-        )["clean_event_type"]
-
     def get_minutes_ago(self, adverbial, event):
         adverbial = adverbial.lower().strip().replace("_", " ")
         event = event.lower().strip().replace("_", " ")
@@ -379,21 +346,25 @@ class VagueTemporalPreparerModule(TripleGeneratorModule):
         if adverbial not in self.all_adverbials:
             raise ValueError(f"Invalid adverbial: {adverbial}")
 
-        prediction = self.predict_kgqa_interval_embedding(
-            event,
-            adverbial,
-            min_prob=self.vague_temp_percentage,
-        )
-        interval = prediction["interval"]
+        clean_event = self.resolve_event_type_embedding(event)
+        if clean_event is None:
+            all_events = self._kgqa_event_types
+        else:
+            all_events = [{
+                "event_type": clean_event["clean_event_type"],
+                "label": clean_event["label"],
+            }]
 
-        res = [
-            (
-                interval["lower_minutes_ago"],
-                interval["upper_minutes_ago"],
-                prediction["clean_event_type"],
+        res = []
+        for event in all_events:
+            label = event.get("label") or self._readable_event_type(event["event_type"])
+            upper, lower = self.predict_time_frame_embedding(
+                label,
+                adverbial,
+                min_prob=self.vague_temp_percentage,
+                use_clean_event_type=False,
             )
-        ]
-        # print("Interval results: ", res, flush=True)
+            res.append((upper, lower, event["event_type"]))
         return res
 
     def process(
@@ -592,4 +563,3 @@ class BasicTripleGeneratorModule(TripleGeneratorModule):
             logging.warning("Invalid number of arguments, skipping {}{}".format(pred, str(var_order)))
 
         return triples, updated, data
-
